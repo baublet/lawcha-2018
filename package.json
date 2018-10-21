@@ -1,0 +1,23 @@
+{
+  "name": "lawcha-2019",
+  "version": "1.0.0",
+  "description": "LAWCHA 2019 Theme",
+  "main": "tailwind.js",
+  "dependencies": {
+    "tailwindcss": "^0.6.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "./node_modules/.bin/tailwind build tailwind.css -o styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baublet/lawcha-2018.git"
+  },
+  "author": "Ryan Poe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baublet/lawcha-2018/issues"
+  },
+  "homepage": "https://github.com/baublet/lawcha-2018#readme"
+}
