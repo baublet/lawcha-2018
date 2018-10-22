@@ -180,7 +180,7 @@ a:active {
 .contentBlock {
     width: 1024px;
     max-width: 100%;
-    margin 0 auto;
+    margin:; 0 auto;
 }
 
 .longForm {
