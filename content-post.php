@@ -17,9 +17,6 @@ $archive_year  = get_year_link('');
 $archive_month = get_month_link('', '');
 $post_time = get_the_time('U');
 
- /* If this is a LaborOnline post,
-    load the last three posts there,
-    excluding this one*/
 if (post_is_in_descendant_category(25)) : ?>
 <div class="sub-brand labor-online<?=($thumbnail > 599) ? ' banner' : ' nobanner' ?>">
     <div class="sub-brand-image">
@@ -57,7 +54,18 @@ if (post_is_in_descendant_category(25)) : ?>
             the_post_thumbnail('full', $attr);
         }
         ?>
-        <div class="absolute pin-t pin-l p-normal"><?php the_category(' '); ?></div>
+        <div class="absolute pin-t pin-l p-normal">
+            <?php
+            $categories = get_the_category();
+            foreach ($categories as $category) {
+                ?>
+                <a class="rounded bg-background text-foreground mr-small" href="<?= get_category_link($category->term_id) ?>">
+                    <?= $category->cat_name ?>
+                </a>
+            <?php
+            }
+            ?>
+        </div>
         <h2 class="h2<?= $thumbnail > 599 ? ' -m-normal bg-primary': '' ?>">
             <?php
             $title = get_the_title();
