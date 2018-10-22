@@ -168,7 +168,7 @@ table {
 }
 
 a {
-    @apply text-primary;
+    @apply text-primaryLight;
 }
 
 a:hover {
