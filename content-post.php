@@ -79,7 +79,10 @@ if (post_is_in_descendant_category(25)) : ?>
             ?>
         </h1>
         <div class="opacity-50 mt-normal mb-large<?= $thumbnail > 599 ? ' text-center': '' ?>">
-            by <span class="name"><?php the_author_posts_link(); ?></span>
+            by
+            <a rel="author" class="no-underline" href="<?= esc_url(get_author_posts_url($authordata->ID, $authordata->user_nicename)) ?>">
+                <?= get_the_author() ?>
+            </a>
             <?php
             if ($otherauthors) {
                 foreach ($otherauthors as $key => $author_id) {
