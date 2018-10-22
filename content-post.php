@@ -102,7 +102,7 @@ if (post_is_in_descendant_category(25)) : ?>
     <div class="longForm">
         <?php /* Our custom verbiage for our Working-Class Perspectives cross-posts */
         if (has_tag("working-class-perspectives")) : ?>
-            <aside class="desktop:float-right text-wcpText bg-wcp font-normal p-4">
+            <aside class="desktop:float-right text-wcpText bg-wcp font-normal p-normal desktop:w-64 mb-normal">
                 <em>This post was originally featured in</em>
                 <strong><a href="https://workingclassstudies.wordpress.com/" class="text-inherit">Working-Class
                 Perspectives: Commentary on Working-Class Culture, Education, and

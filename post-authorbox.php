@@ -1,12 +1,5 @@
-<?php
-/**
- * The default template for displaying author boxes
- *
- * Used for single posts
- *
- */
- ?><div class="author-box">
-    <a href="<?=get_author_posts_url($author_id)?>" class="author-img">
+<div class="p-normal mb-normal desktop:float-right desktop:w-64 mb-normal font-normal">
+    <a href="<?=get_author_posts_url($author_id)?>" class="float-left">
          <?=get_avatar(get_the_author_meta('user_email', $author_id))?>
      </a>
 	<a rel="author" href="<?=get_author_posts_url($author_id)?>" class="author-name">
