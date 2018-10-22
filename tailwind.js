@@ -24,7 +24,7 @@ module.exports = {
   },
   fonts: {
     heading: ["bitter", "merriweather", "serif"],
-    longtext: ["bitter", "merriweather", "serif"],
+    longForm: ["bitter", "merriweather", "serif"],
     normal: ["open sans", "trebuchet ms", "sans-serif"]
   },
 

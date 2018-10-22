@@ -37,3 +37,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .content a:active {
     @apply text-foreground;
 }
+
+.longForm {
+    @apply font-longForm;
+}
+
+.longForm p + p {
+    @apply mt-4;
+}

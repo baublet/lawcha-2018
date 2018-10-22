@@ -1487,7 +1487,7 @@ table {
   font-family: bitter, merriweather, serif;
 }
 
-.font-longtext {
+.font-longForm {
   font-family: bitter, merriweather, serif;
 }
 
@@ -3910,6 +3910,14 @@ table {
   color: rgb(51, 51, 51);
 }
 
+.longForm {
+  font-family: bitter, merriweather, serif;
+}
+
+.longForm p + p {
+  margin-top: 1rem;
+}
+
 @media (min-width: 768px) {
   .desktop\:list-reset {
     list-style: none;
@@ -4762,7 +4770,7 @@ table {
     font-family: bitter, merriweather, serif;
   }
 
-  .desktop\:font-longtext {
+  .desktop\:font-longForm {
     font-family: bitter, merriweather, serif;
   }
 
