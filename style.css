@@ -2307,6 +2307,46 @@ table {
   opacity: 1;
 }
 
+.hover\:opacity-0:hover {
+  opacity: 0;
+}
+
+.hover\:opacity-25:hover {
+  opacity: .25;
+}
+
+.hover\:opacity-50:hover {
+  opacity: .5;
+}
+
+.hover\:opacity-75:hover {
+  opacity: .75;
+}
+
+.hover\:opacity-100:hover {
+  opacity: 1;
+}
+
+.focus\:opacity-0:focus {
+  opacity: 0;
+}
+
+.focus\:opacity-25:focus {
+  opacity: .25;
+}
+
+.focus\:opacity-50:focus {
+  opacity: .5;
+}
+
+.focus\:opacity-75:focus {
+  opacity: .75;
+}
+
+.focus\:opacity-100:focus {
+  opacity: 1;
+}
+
 .outline-none {
   outline: 0;
 }
@@ -4974,6 +5014,46 @@ a:hover {
   }
 
   .desktop\:opacity-100 {
+    opacity: 1;
+  }
+
+  .desktop\:hover\:opacity-0:hover {
+    opacity: 0;
+  }
+
+  .desktop\:hover\:opacity-25:hover {
+    opacity: .25;
+  }
+
+  .desktop\:hover\:opacity-50:hover {
+    opacity: .5;
+  }
+
+  .desktop\:hover\:opacity-75:hover {
+    opacity: .75;
+  }
+
+  .desktop\:hover\:opacity-100:hover {
+    opacity: 1;
+  }
+
+  .desktop\:focus\:opacity-0:focus {
+    opacity: 0;
+  }
+
+  .desktop\:focus\:opacity-25:focus {
+    opacity: .25;
+  }
+
+  .desktop\:focus\:opacity-50:focus {
+    opacity: .5;
+  }
+
+  .desktop\:focus\:opacity-75:focus {
+    opacity: .75;
+  }
+
+  .desktop\:focus\:opacity-100:focus {
     opacity: 1;
   }
 

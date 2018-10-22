@@ -60,7 +60,7 @@ if (post_is_in_descendant_category(25)) : ?>
             $categories = get_the_category();
             foreach ($categories as $category) {
                 ?>
-                <a class="rounded bg-background text-foreground mr-small text-xs p-x-small no-underline opacity-50 hover:opacity-100" href="<?= get_category_link($category->term_id) ?>">
+                <a class="rounded bg-background text-foreground mr-small text-xs p-x-small no-underline opacity-50 hover:opacity-100 hover:bg-foreground hover:text-background" href="<?= get_category_link($category->term_id) ?>">
                     <?= $category->cat_name ?>
                 </a>
             <?php
