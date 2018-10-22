@@ -49,7 +49,8 @@ if (post_is_in_descendant_category(25)) : ?>
             $topmargin = get_post_meta(get_the_ID(), 'up-down', true);
             $leftmargin = get_post_meta(get_the_ID(), 'left-right', true);
             $attr = array(
-                'style' => "margin-top:{$topmargin};margin-left:{$leftmargin};"
+                "style" => "margin-top:{$topmargin};margin-left:{$leftmargin};",
+                "class" => "w-full h-auto",
             );
             the_post_thumbnail('full', $attr);
         }
@@ -66,36 +67,33 @@ if (post_is_in_descendant_category(25)) : ?>
             }
             ?>
         </div>
-        <h1 class="h1<?= $thumbnail > 599 ? ' -mt-large bg-background mx-normal relative z-30 p-normal text-center mb-large text-center block': '' ?>">
+        <h1 class="h2<?= $thumbnail > 599 ? ' -mt-large bg-background mx-normal relative z-30 p-normal text-center mb-large text-center block': '' ?>">
             <?php
             $title = get_the_title();
             if (function_exists('loop_shortcode_title')) {
                 echo loop_shortcode_title($title);
-                echo loop_shortcode_subtitle($title, '<span class="block h4 opacity-75">', '</span>');
+                echo loop_shortcode_subtitle($title, '<span class="block h4 opacity-75 mt-normal">', '</span>');
             } else {
                 echo $title;
             }
             ?>
         </h1>
-        <div class="author">
+        <div class="opacity-50 mt-normal mb-large<?= $thumbnail > 599 ? ' text-center': '' ?>">
             by <span class="name"><?php the_author_posts_link(); ?></span>
             <?php
             if ($otherauthors) {
                 foreach ($otherauthors as $key => $author_id) {
                     ?>,
-                    <span class="name">
-                        <a rel="author" href="<?= get_author_posts_url($author_id) ?>" title="Posts by <?=get_the_author_meta('display_name', $author_id) ?>">
-                            <?= get_the_author_meta('display_name', $author_id) ?>
-                        </a>
-                    </span>
+                    <a rel="author" class="no-underline" href="<?= get_author_posts_url($author_id) ?>" title="Posts by <?=get_the_author_meta('display_name', $author_id) ?>">
+                        <?= get_the_author_meta('display_name', $author_id) ?>
+                    </a>
                     <?php
                 }
             }
             ?>
-            on <span class="date">
-                    <a href="<?=$archive_month?>" title="Archive for the month of <?=date("F jS, Y", $post_time)?>"><?=date("F j\<\s\u\p\>S\<\/\s\u\p\>", $post_time)?></a>,
-                    <a href="<?=$archive_year?>" title="Archive for the year <?=date("Y", $post_time)?>"><?=date("Y", $post_time)?></a>
-                </span>
+            on
+                <a href="<?=$archive_month?>" title="Archive for the month of <?=date("F jS, Y", $post_time)?>" class="no-underline"><?=date("F j\<\s\u\p\>S\<\/\s\u\p\>", $post_time)?></a>,
+                <a href="<?=$archive_year?>" title="Archive for the year <?=date("Y", $post_time)?>" class="no-underline"><?=date("Y", $post_time)?></a>
         </div>
     </div>
 
