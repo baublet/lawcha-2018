@@ -191,7 +191,10 @@ module.exports = {
   negativeMargin: {
     px: "1px",
     "0": "0",
-    normal: "1rem"
+    normal: "1rem",
+    large: "2rem",
+    small: ".5rem",
+    "x-small": ".25rem"
   },
 
   shadows: {
