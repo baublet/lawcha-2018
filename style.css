@@ -3174,8 +3174,19 @@ a:active {
   color: rgb(51, 51, 51);
 }
 
+.contentBlock {
+  width: 1024px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 .longForm {
   font-family: bitter, merriweather, serif;
+  line-height: 1.4;
+}
+
+.longForm p {
+  max-width: 640px;
 }
 
 .longForm p + p {
