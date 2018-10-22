@@ -175,6 +175,33 @@ a:hover {
     @apply text-foreground;
 }
 
+.h1,
+.h2,
+.h3,
+.h4 {
+    @apply font-heading;
+}
+
+.h1 {
+    @apply font-5xl;
+    @apply font-normal;
+}
+
+.h2 {
+    @apply font-4xl;
+    @apply font-normal;
+}
+
+.h3 {
+    @apply font-3xl;
+    @apply font-bold;
+}
+
+.h4 {
+    @apply font-2xl;
+    @apply font-normal;
+}
+
 .contentBlock {
     width: 940px;
     max-width: 100%;

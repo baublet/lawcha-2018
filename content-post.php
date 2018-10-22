@@ -59,14 +59,14 @@ if (post_is_in_descendant_category(25)) : ?>
             $categories = get_the_category();
             foreach ($categories as $category) {
                 ?>
-                <a class="rounded bg-background text-foreground mr-small" href="<?= get_category_link($category->term_id) ?>">
+                <a class="rounded bg-background text-foreground mr-small font-xs p-x-small no-underline opacity-50 hover:opacity-100" href="<?= get_category_link($category->term_id) ?>">
                     <?= $category->cat_name ?>
                 </a>
             <?php
             }
             ?>
         </div>
-        <h2 class="h2<?= $thumbnail > 599 ? ' -m-normal bg-primary': '' ?>">
+        <h2 class="h2<?= $thumbnail > 599 ? ' -mt-normal bg-background mx-normal': '' ?>">
             <?php
             $title = get_the_title();
             if (function_exists('loop_shortcode_title')) {
