@@ -1,5 +1,6 @@
 let colors = {
   transparent: "transparent",
+  inherit: "inherit",
 
   foreground: "rgb(51,51,51)",
   foregroundLight: "rgba(51,51,51, 0.5)",
@@ -14,7 +15,10 @@ let colors = {
   primaryLight: "rgb(200, 10, 30)",
   primarySlight: "rgba(130, 15, 30, .05)",
 
-  primaryText: "rgb(51,51,51)"
+  primaryText: "rgb(51,51,51)",
+
+  wcp: "#6200ea",
+  wcpText: "#fcfcfc"
 };
 
 module.exports = {
