@@ -43,7 +43,7 @@ if (post_is_in_descendant_category(25)) : ?>
 <?php endif; ?>
 
 <article <?php post_class(); ?>>
-    <div class="contentBlock relative">
+    <div class="contentBlock relative z-20">
         <?php
         if ($thumbnail > 599) {
             $topmargin = get_post_meta(get_the_ID(), 'up-down', true);
@@ -59,14 +59,14 @@ if (post_is_in_descendant_category(25)) : ?>
             $categories = get_the_category();
             foreach ($categories as $category) {
                 ?>
-                <a class="rounded bg-background text-foreground mr-small font-xs p-x-small no-underline opacity-50 hover:opacity-100" href="<?= get_category_link($category->term_id) ?>">
+                <a class="rounded bg-background text-foreground mr-small text-xs p-x-small no-underline opacity-50 hover:opacity-100" href="<?= get_category_link($category->term_id) ?>">
                     <?= $category->cat_name ?>
                 </a>
             <?php
             }
             ?>
         </div>
-        <h2 class="h2<?= $thumbnail > 599 ? ' -mt-normal bg-background mx-normal': '' ?>">
+        <h1 class="h1<?= $thumbnail > 599 ? ' -mt-normal bg-background mx-normal relative z-30 p-normal': '' ?>">
             <?php
             $title = get_the_title();
             if (function_exists('loop_shortcode_title')) {
@@ -76,7 +76,7 @@ if (post_is_in_descendant_category(25)) : ?>
                 echo $title;
             }
             ?>
-        </h2>
+        </h1>
         <div class="author">
             by <span class="name"><?php the_author_posts_link(); ?></span>
             <?php
