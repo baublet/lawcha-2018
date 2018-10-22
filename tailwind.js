@@ -173,14 +173,16 @@ module.exports = {
     px: "1px",
     "0": "0",
     "1": "0.25rem",
-    normal: "1rem"
+    normal: "1rem",
+    small: ".5rem"
   },
 
   margin: {
     auto: "auto",
     px: "1px",
     "0": "0",
-    normal: "1rem"
+    normal: "1rem",
+    small: ".5rem"
   },
 
   negativeMargin: {
