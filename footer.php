@@ -1,6 +1,6 @@
 </div><!-- .content -->
 
-<footer id="colophon" class="footer">
+<footer id="colophon" class="footer contentBlock">
     <div class="social-media">
         <div class="twitter">
             <h2><a href="https://twitter.com/lawcha_org"><span class="icon-twitter"></span> Twitter</a></h2>

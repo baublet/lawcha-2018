@@ -52,7 +52,7 @@ if (post_is_in_descendant_category(25)) : ?>
 <?php endif; ?>
 
 <article <?php post_class(); ?>>
-    <div class="article-header<?= $thumbnail > 599 ? ' banner': '' ?>">
+    <div class="contentBlock article-header<?= $thumbnail > 599 ? ' banner': '' ?>">
         <?php if ($thumbnail > 599) { ?>
             <div class="banner-wrapper">
                 <?php
@@ -99,7 +99,7 @@ if (post_is_in_descendant_category(25)) : ?>
         </div>
     </div>
 
-    <div class="longForm">
+    <div class="longForm contentBlock">
         <?php /* Our custom verbiage for our Working-Class Perspectives cross-posts */
         if (has_tag("working-class-perspectives")) : ?>
             <div class="desktop:float-right text-wcpText bg-wcp font-normal p-normal desktop:w-64 mb-normal clear-right haf:text-inherit">

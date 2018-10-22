@@ -23,7 +23,7 @@
 <a class="screen-reader-text" href="#content"><?php echo 'Skip to content'; ?></a>
 
 <div class="header">
-    <header id="top">
+    <header id="top" class="contentBlock">
         <div class="brand">
             <h1 class="site-title">
                 <a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
@@ -36,7 +36,7 @@
         </div>
     </header>
 
-    <div class="header-nav">
+    <div class="header-nav contentBlock">
         <input type="checkbox" id="nav-toggle">
         <label for="nav-toggle" id="nav-toggle-label">Navigation</label>
         <?php wp_nav_menu(array('main' => 'Primary Menu')); ?>
