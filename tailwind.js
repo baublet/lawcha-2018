@@ -52,8 +52,8 @@ module.exports = {
 
   leading: {
     none: 1,
-    tight: 1.25,
-    normal: 1.4,
+    tight: 1.2,
+    normal: 1.3,
     loose: 1.6
   },
 
@@ -104,7 +104,7 @@ module.exports = {
     "32": "8rem",
     "48": "12rem",
     "64": "16rem",
-    aside: "250px",
+    aside: "275px",
     "1/2": "50%",
     "1/3": "33.33333%",
     "2/3": "66.66667%",
