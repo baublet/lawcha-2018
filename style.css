@@ -1845,6 +1845,10 @@ table {
   margin: 1rem;
 }
 
+.m-large {
+  margin: 2rem;
+}
+
 .m-small {
   margin: .5rem;
 }
@@ -1891,6 +1895,16 @@ table {
 .mx-normal {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.my-large {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mx-large {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .my-small {
@@ -1975,6 +1989,22 @@ table {
 
 .ml-normal {
   margin-left: 1rem;
+}
+
+.mt-large {
+  margin-top: 2rem;
+}
+
+.mr-large {
+  margin-right: 2rem;
+}
+
+.mb-large {
+  margin-bottom: 2rem;
+}
+
+.ml-large {
+  margin-left: 2rem;
 }
 
 .mt-small {
@@ -2357,6 +2387,10 @@ table {
   padding: 1rem;
 }
 
+.p-large {
+  padding: 2rem;
+}
+
 .p-small {
   padding: .5rem;
 }
@@ -2403,6 +2437,16 @@ table {
 .px-normal {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.py-large {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.px-large {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-small {
@@ -2487,6 +2531,22 @@ table {
 
 .pl-normal {
   padding-left: 1rem;
+}
+
+.pt-large {
+  padding-top: 2rem;
+}
+
+.pr-large {
+  padding-right: 2rem;
+}
+
+.pb-large {
+  padding-bottom: 2rem;
+}
+
+.pl-large {
+  padding-left: 2rem;
 }
 
 .pt-small {
@@ -4455,6 +4515,10 @@ a:hover {
     margin: 1rem;
   }
 
+  .desktop\:m-large {
+    margin: 2rem;
+  }
+
   .desktop\:m-small {
     margin: .5rem;
   }
@@ -4501,6 +4565,16 @@ a:hover {
   .desktop\:mx-normal {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .desktop\:my-large {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .desktop\:mx-large {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .desktop\:my-small {
@@ -4585,6 +4659,22 @@ a:hover {
 
   .desktop\:ml-normal {
     margin-left: 1rem;
+  }
+
+  .desktop\:mt-large {
+    margin-top: 2rem;
+  }
+
+  .desktop\:mr-large {
+    margin-right: 2rem;
+  }
+
+  .desktop\:mb-large {
+    margin-bottom: 2rem;
+  }
+
+  .desktop\:ml-large {
+    margin-left: 2rem;
   }
 
   .desktop\:mt-small {
@@ -4959,6 +5049,10 @@ a:hover {
     padding: 1rem;
   }
 
+  .desktop\:p-large {
+    padding: 2rem;
+  }
+
   .desktop\:p-small {
     padding: .5rem;
   }
@@ -5005,6 +5099,16 @@ a:hover {
   .desktop\:px-normal {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .desktop\:py-large {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .desktop\:px-large {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .desktop\:py-small {
@@ -5089,6 +5193,22 @@ a:hover {
 
   .desktop\:pl-normal {
     padding-left: 1rem;
+  }
+
+  .desktop\:pt-large {
+    padding-top: 2rem;
+  }
+
+  .desktop\:pr-large {
+    padding-right: 2rem;
+  }
+
+  .desktop\:pb-large {
+    padding-bottom: 2rem;
+  }
+
+  .desktop\:pl-large {
+    padding-left: 2rem;
   }
 
   .desktop\:pt-small {
