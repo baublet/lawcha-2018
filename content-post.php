@@ -55,7 +55,7 @@ if (post_is_in_descendant_category(25)) : ?>
             the_post_thumbnail('full', $attr);
         }
         ?>
-        <div class="mb-normal<?= $thumbnail > 599 ? 'absolute pin-t pin-l p-normal' : '' ?>">
+        <div class="mb-normal<?= $thumbnail > 599 ? ' absolute pin-t pin-l p-normal' : '' ?>">
             <?php
             $categories = get_the_category();
             foreach ($categories as $category) {
