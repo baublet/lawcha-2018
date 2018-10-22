@@ -162,7 +162,7 @@ if (!function_exists('lawcha_load_scripts')):
  *
  */
 function lawcha_load_scripts() {
-	wp_enqueue_style('less-compressed', get_template_directory_uri() . '/compressed.css');
+	wp_enqueue_style('tailwind', get_template_directory_uri() . '/style.css');
 }
 add_action('wp_enqueue_scripts', 'lawcha_load_scripts');
 endif;
