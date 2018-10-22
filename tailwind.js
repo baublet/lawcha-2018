@@ -54,7 +54,7 @@ module.exports = {
     none: 1,
     tight: 1.25,
     normal: 1.4,
-    loose: 1.8
+    loose: 1.6
   },
 
   tracking: {

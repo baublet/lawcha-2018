@@ -171,9 +171,7 @@ a {
     @apply text-primary;
 }
 
-a:hover,
-a:focus,
-a:active {
+a:hover {
     @apply text-foreground;
 }
 
@@ -185,7 +183,7 @@ a:active {
 
 .longForm {
     @apply font-longForm;
-    @apply leading-normal;
+    @apply leading-loose;
 }
 
 .longForm p {
