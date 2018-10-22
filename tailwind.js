@@ -46,7 +46,7 @@ module.exports = {
 
   fontWeights: {
     thin: 200,
-    normal: 400,
+    regular: 400,
     bold: 700
   },
 
