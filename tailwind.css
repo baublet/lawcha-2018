@@ -178,36 +178,35 @@ a:hover {
 .h1,
 .h2,
 .h3,
-.h4 {
+.h4,
+.h5,
+.h6 {
     @apply font-heading;
+    @apply text-regular;
 }
 
 .h1 {
     @apply text-5xl;
-    @apply font-normal;
 }
 
 .h2 {
     @apply text-4xl;
-    @apply font-normal;
 }
 
 .h3 {
     @apply text-3xl;
-    @apply font-bold;
 }
 
 .h4,
 .h5,
 .h6 {
     @apply text-2xl;
-    @apply font-normal;
 }
 
 .h5,
 .h6 {
-    @apply font-bold;
-    @apply text-normal;
+    @apply font-normal;
+    @apply text-bold;
 }
 
 .h6 {
