@@ -175,7 +175,8 @@ module.exports = {
     "0": "0",
     "1": "0.25rem",
     normal: "1rem",
-    small: ".5rem"
+    small: ".5rem",
+    "x-small": ".25rem"
   },
 
   margin: {
@@ -183,7 +184,8 @@ module.exports = {
     px: "1px",
     "0": "0",
     normal: "1rem",
-    small: ".5rem"
+    small: ".5rem",
+    "x-small": ".25rem"
   },
 
   negativeMargin: {
