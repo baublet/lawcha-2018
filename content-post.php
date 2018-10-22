@@ -1,10 +1,4 @@
 <?php
-/**
- * The default template for displaying content
- *
- * Used for both single and index/archive/search.
- *
- */
 
 // Setup the post thumbnail
 $thumbnail = 0;
@@ -52,21 +46,19 @@ if (post_is_in_descendant_category(25)) : ?>
 <?php endif; ?>
 
 <article <?php post_class(); ?>>
-    <div class="contentBlock article-header<?= $thumbnail > 599 ? ' banner': '' ?>">
-        <?php if ($thumbnail > 599) { ?>
-            <div class="banner-wrapper">
-                <?php
-                    $topmargin = get_post_meta(get_the_ID(), 'up-down', true);
-                    $leftmargin = get_post_meta(get_the_ID(), 'left-right', true);
-                    $attr = array(
-                        'style' => "margin-top:{$topmargin};margin-left:{$leftmargin};"
-                    );
-                    the_post_thumbnail('full', $attr);
-                ?>
-            </div>
-        <?php } ?>
-        <div class="categories"><?php the_category(' '); ?></div>
-        <h2 class="article-title">
+    <div class="contentBlock relative">
+        <?php
+        if ($thumbnail > 599) {
+            $topmargin = get_post_meta(get_the_ID(), 'up-down', true);
+            $leftmargin = get_post_meta(get_the_ID(), 'left-right', true);
+            $attr = array(
+                'style' => "margin-top:{$topmargin};margin-left:{$leftmargin};"
+            );
+            the_post_thumbnail('full', $attr);
+        }
+        ?>
+        <div class="absolute pin-t pin-l p-normal"><?php the_category(' '); ?></div>
+        <h2 class="h2<?= $thumbnail > 599 ? ' -m-normal bg-primary': '' ?>">
             <?php
             $title = get_the_title();
             if (function_exists('loop_shortcode_title')) {
