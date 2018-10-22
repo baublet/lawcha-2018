@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "./node_modules/.bin/tailwind build tailwind.css -o style.css"
+    "build":
+      "./node_modules/.bin/tailwind build tailwind.css -c tailwind.js -o style.css"
   },
   "repository": {
     "type": "git",
