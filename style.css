@@ -1709,7 +1709,7 @@ table {
   font-weight: 200;
 }
 
-.font-normal {
+.font-regular {
   font-weight: 400;
 }
 
@@ -1721,7 +1721,7 @@ table {
   font-weight: 200;
 }
 
-.hover\:font-normal:hover {
+.hover\:font-regular:hover {
   font-weight: 400;
 }
 
@@ -1733,7 +1733,7 @@ table {
   font-weight: 200;
 }
 
-.focus\:font-normal:focus {
+.focus\:font-regular:focus {
   font-weight: 400;
 }
 
@@ -3236,6 +3236,44 @@ a:hover {
   color: rgb(51, 51, 51);
 }
 
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: bitter, merriweather, serif;
+  font-weight: 400;
+}
+
+.h1 {
+  font-size: 3rem;
+}
+
+.h2 {
+  font-size: 2.25rem;
+}
+
+.h3 {
+  font-size: 1.875rem;
+}
+
+.h4,
+.h5,
+.h6 {
+  font-size: 1.5rem;
+}
+
+.h5,
+.h6 {
+  font-family: open sans, trebuchet ms, sans-serif;
+  font-weight: 700;
+}
+
+.h6 {
+  font-size: .875rem;
+}
+
 .contentBlock {
   width: 940px;
   max-width: 100%;
@@ -4191,7 +4229,7 @@ a:hover {
     font-weight: 200;
   }
 
-  .desktop\:font-normal {
+  .desktop\:font-regular {
     font-weight: 400;
   }
 
@@ -4203,7 +4241,7 @@ a:hover {
     font-weight: 200;
   }
 
-  .desktop\:hover\:font-normal:hover {
+  .desktop\:hover\:font-regular:hover {
     font-weight: 400;
   }
 
@@ -4215,7 +4253,7 @@ a:hover {
     font-weight: 200;
   }
 
-  .desktop\:focus\:font-normal:focus {
+  .desktop\:focus\:font-regular:focus {
     font-weight: 400;
   }
 
