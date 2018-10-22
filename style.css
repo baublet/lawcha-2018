@@ -3063,6 +3063,10 @@ table {
   width: 1px;
 }
 
+.w-aside {
+  width: 250px;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -5463,6 +5467,10 @@ a:hover {
 
   .desktop\:w-px {
     width: 1px;
+  }
+
+  .desktop\:w-aside {
+    width: 250px;
   }
 
   .desktop\:w-1\/2 {

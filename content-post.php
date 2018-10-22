@@ -102,13 +102,13 @@ if (post_is_in_descendant_category(25)) : ?>
     <div class="longForm contentBlock">
         <?php /* Our custom verbiage for our Working-Class Perspectives cross-posts */
         if (has_tag("working-class-perspectives")) : ?>
-            <div class="desktop:float-right text-wcpText bg-wcp font-normal p-normal desktop:w-64 mb-normal clear-right haf:text-inherit text-sm">
+            <div class="desktop:float-right text-wcpText bg-wcp font-normal p-normal desktop:w-aside mb-normal clear-right haf:text-inherit text-sm leading-normal">
                 <em>This post was originally featured in</em>
                 <strong><a href="https://workingclassstudies.wordpress.com/" class="text-inherit hover:text-inherit no-underline">Working-Class
                 Perspectives: Commentary on Working-Class Culture, Education, and
-                Politics</a></strong><em>, affiliated with the
-                <a href="http://lwp.georgetown.edu/" class="text-inherit hover:text-inherit no-underline">Kalmanovitz Initiative for Labor
-                and the Working Poor at Georgetown University</a>.</em>
+                Politics</a></strong>, affiliated with the
+                <a href="http://lwp.georgetown.edu/" class="text-inherit hover:text-inherit">Kalmanovitz Initiative for Labor
+                and the Working Poor at Georgetown University</a>.
             </div>
         <?php endif; ?>
 
