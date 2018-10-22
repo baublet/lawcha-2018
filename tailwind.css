@@ -28,13 +28,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
     word-wrap: normal !important;
 }
 
-.content a {
+a {
     @apply text-primary;
 }
 
-.content a:hover,
-.content a:focus,
-.content a:active {
+a:hover,
+a:focus,
+a:active {
     @apply text-foreground;
 }
 
