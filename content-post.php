@@ -66,7 +66,7 @@ if (post_is_in_descendant_category(25)) : ?>
             }
             ?>
         </div>
-        <h1 class="h1<?= $thumbnail > 599 ? ' -mt-large bg-background mx-normal relative z-30 p-normal text-center mb-large': '' ?>">
+        <h1 class="h1<?= $thumbnail > 599 ? ' -mt-large bg-background mx-normal relative z-30 p-normal text-center mb-large text-center block': '' ?>">
             <?php
             $title = get_the_title();
             if (function_exists('loop_shortcode_title')) {
