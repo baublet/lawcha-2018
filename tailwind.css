@@ -28,6 +28,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
     word-wrap: normal !important;
 }
 
+.clear-right {
+    clear: right;
+}
+
+.clear-left {
+    clear: left;
+}
+
 a {
     @apply text-primary;
 }

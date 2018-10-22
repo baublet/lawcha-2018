@@ -3018,6 +3018,14 @@ table {
   word-wrap: normal !important;
 }
 
+.clear-right {
+  clear: right;
+}
+
+.clear-left {
+  clear: left;
+}
+
 a {
   color: rgb(130, 15, 30);
 }
