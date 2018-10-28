@@ -3571,10 +3571,24 @@ a:hover {
 .nav-panel .menu-new-menu-container > ul {
   display: flex;
   position: relative;
+  justify-content: space-around;
 }
 
 .nav-panel .menu-new-menu-container > ul > li {
   display: block;
+}
+
+.nav-panel .menu-new-menu-container > ul > li > a {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-panel .menu-new-menu-container > ul > li > a:hover,
+.nav-panel .menu-new-menu-container > ul > li > a:focus,
+.nav-panel .menu-new-menu-container > ul > li > a:active {
+  background-color: rgb(130, 15, 30);
+  color: rgb(254, 254, 254);
 }
 
 .nav-panel .menu-new-menu-container > ul > li > ul {

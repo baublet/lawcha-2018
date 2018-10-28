@@ -233,7 +233,7 @@ a:hover {
 }
 
 .toggle-check {
-    @apply .screen-reader-text;
+    @apply screen-reader-text;
 }
 
 .toggle-panel {
@@ -251,10 +251,24 @@ a:hover {
 .nav-panel .menu-new-menu-container > ul {
     display: flex;
     position: relative;
+    justify-content: space-around;
 }
 
 .nav-panel .menu-new-menu-container > ul > li {
     display: block;
+}
+
+.nav-panel .menu-new-menu-container > ul > li > a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-panel .menu-new-menu-container > ul > li > a:hover,
+.nav-panel .menu-new-menu-container > ul > li > a:focus,
+.nav-panel .menu-new-menu-container > ul > li > a:active {
+    @apply bg-primary;
+    @apply text-background;
 }
 
 .nav-panel .menu-new-menu-container > ul > li > ul {
