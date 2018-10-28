@@ -38,11 +38,11 @@
     </header>
 
     <div class="header-nav desktop:flex-grow relative">
-        <input type="checkbox" id="nav-toggle" class="toggle-check">
-        <label for="nav-toggle" id="nav-toggle-label" class="toggle-label desktop:hidden">Navigation</label>
-        <div class="nav-panel toggle-panel p-normal hidden desktop:block relative">
+        <div class="nav-panel p-normal hidden desktop:block relative">
             <?php wp_nav_menu(array('main' => 'Primary Menu')); ?>
         </div>
+        <input type="checkbox" id="nav-toggle" class="toggle-check desktop:hidden">
+        <label for="nav-toggle" id="nav-toggle-label" class="toggle-label desktop:hidden">Navigation</label>
         <div class="nav-panel-mobile toggle-panel desktop:hidden">
             <?php wp_nav_menu(array('main' => 'Primary Menu')); ?>
         </div>
