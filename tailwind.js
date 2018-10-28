@@ -176,6 +176,8 @@ module.exports = {
     "1": "0.25rem",
     normal: "1rem",
     large: "2rem",
+    larger: "4rem",
+    largest: "8rem",
     small: ".5rem",
     "x-small": ".25rem"
   },

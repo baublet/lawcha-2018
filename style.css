@@ -2431,6 +2431,14 @@ table {
   padding: 2rem;
 }
 
+.p-larger {
+  padding: 4rem;
+}
+
+.p-largest {
+  padding: 8rem;
+}
+
 .p-small {
   padding: .5rem;
 }
@@ -2487,6 +2495,26 @@ table {
 .px-large {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.py-larger {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.px-larger {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.py-largest {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.px-largest {
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .py-small {
@@ -2587,6 +2615,38 @@ table {
 
 .pl-large {
   padding-left: 2rem;
+}
+
+.pt-larger {
+  padding-top: 4rem;
+}
+
+.pr-larger {
+  padding-right: 4rem;
+}
+
+.pb-larger {
+  padding-bottom: 4rem;
+}
+
+.pl-larger {
+  padding-left: 4rem;
+}
+
+.pt-largest {
+  padding-top: 8rem;
+}
+
+.pr-largest {
+  padding-right: 8rem;
+}
+
+.pb-largest {
+  padding-bottom: 8rem;
+}
+
+.pl-largest {
+  padding-left: 8rem;
 }
 
 .pt-small {
@@ -5133,6 +5193,14 @@ a:hover {
     padding: 2rem;
   }
 
+  .desktop\:p-larger {
+    padding: 4rem;
+  }
+
+  .desktop\:p-largest {
+    padding: 8rem;
+  }
+
   .desktop\:p-small {
     padding: .5rem;
   }
@@ -5189,6 +5257,26 @@ a:hover {
   .desktop\:px-large {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .desktop\:py-larger {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .desktop\:px-larger {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .desktop\:py-largest {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .desktop\:px-largest {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
   .desktop\:py-small {
@@ -5289,6 +5377,38 @@ a:hover {
 
   .desktop\:pl-large {
     padding-left: 2rem;
+  }
+
+  .desktop\:pt-larger {
+    padding-top: 4rem;
+  }
+
+  .desktop\:pr-larger {
+    padding-right: 4rem;
+  }
+
+  .desktop\:pb-larger {
+    padding-bottom: 4rem;
+  }
+
+  .desktop\:pl-larger {
+    padding-left: 4rem;
+  }
+
+  .desktop\:pt-largest {
+    padding-top: 8rem;
+  }
+
+  .desktop\:pr-largest {
+    padding-right: 8rem;
+  }
+
+  .desktop\:pb-largest {
+    padding-bottom: 8rem;
+  }
+
+  .desktop\:pl-largest {
+    padding-left: 8rem;
   }
 
   .desktop\:pt-small {

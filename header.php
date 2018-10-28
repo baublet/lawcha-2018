@@ -25,7 +25,7 @@
 <div class="header contentBlock desktop:flex desktop:justify-between">
     <header id="top">
         <div class="brand">
-            <h1 class="site-title bg-primary p-normal pt-large">
+            <h1 class="site-title bg-primary p-normal pt-largest">
                 <a href="<?php echo esc_url(home_url('/')); ?>" rel="home" class="max-w-xs">
                     <img src="<?= get_template_directory_uri() ?>/images/brand.png" alt="<?php bloginfo('name'); ?>" />
                     <span class="screen-reader-text">
@@ -33,7 +33,7 @@
                     </span>
                 </a>
             </h1>
-            <h2><?php echo get_bloginfo('description', 'display'); ?></h2>
+            <h2 class="screen-reader-text"><?php echo get_bloginfo('description', 'display'); ?></h2>
         </div>
     </header>
 
