@@ -244,6 +244,10 @@ a:hover {
     display: block;
 }
 
+/**
+ * Navigation-specific CSS
+ */
+
 .nav-panel li,
 .nav-panel ul {
     display: none;
@@ -281,17 +285,20 @@ a:hover {
     left: 0;
 }
 
-.nav-panel .menu-new-menu-container li:hover ul,
-.nav-panel .menu-new-menu-container li:hover li {
+.nav-panel .menu-new-menu-container li:hover > ul,
+.nav-panel .menu-new-menu-container li:hover > ul > li,
+.nav-panel .menu-new-menu-container li:hover > ul > li:hover ul,
+.nav-panel .menu-new-menu-container li:hover > ul > li:hover li {
     display: block;
 }
 
 .nav-panel .menu-new-menu-container > ul > li > ul a {
     display: block;
-    width: 250px;
+    width: 200px;
     @apply bg-primary;
     @apply text-background;
     @apply p-small;
+    text-decoration: none;
 }
 
 .nav-panel .menu-new-menu-container > ul > li > ul a:hover,
