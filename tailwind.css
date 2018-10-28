@@ -248,7 +248,7 @@ a:hover {
  * Navigation-specific CSS
  */
 
-.menu > .menu-item a {
+.menu > .menu-item > a {
     font-weight: bold;
     @apply text-primary;
     text-decoration: none;

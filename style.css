@@ -3568,7 +3568,7 @@ a:hover {
  * Navigation-specific CSS
  */
 
-.menu > .menu-item a {
+.menu > .menu-item > a {
   font-weight: bold;
   color: rgb(130, 15, 30);
   text-decoration: none;
