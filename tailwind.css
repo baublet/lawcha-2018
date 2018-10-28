@@ -275,6 +275,16 @@ a:hover {
     left: 0;
 }
 
+.sub-menu a {
+    @apply p-sm;
+    @apply bg-primary;
+    @apply text-background;
+}
+
+.sub-menu a:hover {
+    @apply bg-foreground;
+}
+
 .menu-item:hover > .sub-menu,
 .menu-item:active > .sub-menu,
 .menu-item:focus > .sub-menu {
