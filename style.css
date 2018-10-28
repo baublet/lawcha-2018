@@ -3633,9 +3633,10 @@ a:hover {
   padding-left: 1rem;
 }
 
-.content li + li,
-.nav-panel-mobile li + li {
-  margin-top: 1rem;
+.content li,
+.nav-panel-mobile li {
+  margin-top: .25rem;
+  margin-bottom: .25rem;
 }
 
 @media (min-width: 768px) {

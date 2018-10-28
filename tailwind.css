@@ -313,7 +313,7 @@ a:hover {
     @apply pl-normal;
 }
 
-.content li + li,
-.nav-panel-mobile li + li {
-    @apply mt-normal;
+.content li,
+.nav-panel-mobile li {
+    @apply my-x-small;
 }
