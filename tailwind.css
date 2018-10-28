@@ -311,6 +311,7 @@ a:hover {
 .content ul,
 .nav-panel-mobile ul {
     @apply pl-normal;
+    @apply my-x-small;
 }
 
 .content li,
