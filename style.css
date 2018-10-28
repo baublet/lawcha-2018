@@ -3642,6 +3642,12 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+  .nav-panel-mobile {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
   .desktop\:list-reset {
     list-style: none;
     padding: 0;

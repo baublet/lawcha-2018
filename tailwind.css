@@ -318,3 +318,9 @@ a:hover {
 .nav-panel-mobile li {
     @apply my-x-small;
 }
+
+@screen desktop {
+    .nav-panel-mobile {
+        display: none !important;
+    }
+}
