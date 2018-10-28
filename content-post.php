@@ -95,8 +95,8 @@ if (post_is_in_descendant_category(25)) : ?>
             }
             ?>
             on
-                <a href="<?=$archive_month?>" title="Archive for the month of <?=date("F jS, Y", $post_time)?>" class="no-underline"><?=date("F j\<\s\u\p\>S\<\/\s\u\p\>", $post_time)?></a>,
-                <a href="<?=$archive_year?>" title="Archive for the year <?=date("Y", $post_time)?>" class="no-underline"><?=date("Y", $post_time)?></a>
+                <a href="<?=$archive_month?>" title="Archive for the month of <?=date("F jS, Y", $post_time)?>" class="no-underline text-inherit hover:underline"><?=date("F j\<\s\u\p\>S\<\/\s\u\p\>", $post_time)?></a>,
+                <a href="<?=$archive_year?>" title="Archive for the year <?=date("Y", $post_time)?>" class="no-underline text-inherit hover:underline""><?=date("Y", $post_time)?></a>
         </div>
     </div>
 

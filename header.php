@@ -22,12 +22,13 @@
 
 <a class="screen-reader-text" href="#content"><?php echo 'Skip to content'; ?></a>
 
-<div class="header">
-    <header id="top" class="contentBlock">
+<div class="header contentBlock desktop:flex desktop:justify-between">
+    <header id="top">
         <div class="brand">
-            <h1 class="site-title">
-                <a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
-                    <span>
+            <h1 class="site-title bg-primary p-normal pt-large">
+                <a href="<?php echo esc_url(home_url('/')); ?>" rel="home" class="max-w-xs">
+                    <img src="<?= get_template_directory_uri() ?>/images/brand.png" alt="<?php bloginfo('name'); ?>" />
+                    <span class="screen-reader-text">
                         <?php bloginfo('name'); ?>
                     </span>
                 </a>
@@ -36,7 +37,7 @@
         </div>
     </header>
 
-    <div class="header-nav contentBlock">
+    <div class="header-nav">
         <input type="checkbox" id="nav-toggle">
         <label for="nav-toggle" id="nav-toggle-label">Navigation</label>
         <?php wp_nav_menu(array('main' => 'Primary Menu')); ?>
