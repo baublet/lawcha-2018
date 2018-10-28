@@ -3568,7 +3568,7 @@ a:hover {
  * Navigation-specific CSS
  */
 
-.menu > .menu-item > a {
+.nav-panel .menu > .menu-item > a {
   display: block;
   font-weight: bold;
   color: rgb(130, 15, 30);
@@ -3577,27 +3577,27 @@ a:hover {
   text-align: center;
 }
 
-.menu > .menu-item > a:hover,
-.menu > .menu-item > a:focus,
-.menu > .menu-item > a:active {
+.nav-panel .menu > .menu-item > a:hover,
+.nav-panel .menu > .menu-item > a:focus,
+.nav-panel .menu > .menu-item > a:active {
   color: rgb(254, 254, 254);
   background-color: rgb(130, 15, 30);
 }
 
-.menu {
+.nav-panel .menu {
   display: flex;
   justify-content: space-between;
 }
 
-.menu .menu {
+.nav-panel .menu .menu {
   flex-direction: row;
 }
 
-.menu-item {
+.nav-panel .menu-item {
   position: relative;
 }
 
-.sub-menu {
+.nav-panel .sub-menu {
   display: none;
   position: absolute;
   width: 200px;
@@ -3605,7 +3605,7 @@ a:hover {
   left: 0;
 }
 
-.sub-menu a {
+.nav-panel .sub-menu a {
   padding: .5rem;
   background-color: rgb(130, 15, 30);
   color: rgb(254, 254, 254);
@@ -3613,17 +3613,17 @@ a:hover {
   text-decoration: none;
 }
 
-.sub-menu a:hover {
+.nav-panel .sub-menu a:hover {
   background-color: rgb(51, 51, 51);
 }
 
-.menu-item:hover > .sub-menu,
-.menu-item:active > .sub-menu,
-.menu-item:focus > .sub-menu {
+.nav-panel .menu-item:hover > .sub-menu,
+.nav-panel .menu-item:active > .sub-menu,
+.nav-panel .menu-item:focus > .sub-menu {
   display: block;
 }
 
-.sub-menu .menu-item .sub-menu {
+.nav-panel .sub-menu .menu-item .sub-menu {
   left: 100%;
   top: 0;
 }
