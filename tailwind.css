@@ -279,6 +279,7 @@ a:hover {
     @apply p-small;
     @apply bg-primary;
     @apply text-background;
+    display: block;
 }
 
 .sub-menu a:hover {

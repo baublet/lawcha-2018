@@ -3599,6 +3599,7 @@ a:hover {
   padding: .5rem;
   background-color: rgb(130, 15, 30);
   color: rgb(254, 254, 254);
+  display: block;
 }
 
 .sub-menu a:hover {
