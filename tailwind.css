@@ -248,61 +248,30 @@ a:hover {
  * Navigation-specific CSS
  */
 
-.nav-panel li,
-.nav-panel ul {
-    display: none;
-}
-
-.nav-panel .menu-new-menu-container > ul {
-    display: flex;
-    position: relative;
-    justify-content: space-around;
-}
-
-.nav-panel .menu-new-menu-container > ul > li {
-    display: block;
-    position: relative;
-}
-
-.nav-panel .menu-new-menu-container > ul > li > a {
-    display: block;
-    text-decoration: none;
+.menu > .menu-item a {
     font-weight: bold;
-    text-align: center;
-    @apply p-small;
+    @apply text-primary;
+    text-decoration: none;
 }
 
-.nav-panel .menu-new-menu-container > ul > li > a:hover,
-.nav-panel .menu-new-menu-container > ul > li > a:focus,
-.nav-panel .menu-new-menu-container > ul > li > a:active {
-    @apply bg-primary;
-    @apply text-background;
+.menu-item {
+    position: relative;
 }
 
-.nav-panel .menu-new-menu-container > ul > li > ul {
+.sub-menu {
+    display: none;
     position: absolute;
+    width: 200px;
     top: 100%;
     left: 0;
 }
 
-.nav-panel .menu-new-menu-container li:hover > ul,
-.nav-panel .menu-new-menu-container li:hover > ul > li,
-.nav-panel .menu-new-menu-container li:hover > ul > li:hover ul,
-.nav-panel .menu-new-menu-container li:hover > ul > li:hover li {
+.menu-item:hover > .sub-menu,
+.menu-item:active > .sub-menu,
+.menu-item:focus > .sub-menu {
     display: block;
 }
 
-.nav-panel .menu-new-menu-container > ul > li > ul a {
-    display: block;
-    width: 200px;
-    @apply bg-primary;
-    @apply text-background;
-    @apply p-small;
-    text-decoration: none;
-}
-
-.nav-panel .menu-new-menu-container > ul > li > ul a:hover,
-.nav-panel .menu-new-menu-container > ul > li > ul a:focus,
-.nav-panel .menu-new-menu-container > ul > li > ul a:active {
-    @apply bg-foreground;
+.sub-menu .menu-item .sub-menu {
+    left: 100%;
 }
