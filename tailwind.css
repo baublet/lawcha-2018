@@ -252,6 +252,14 @@ a:hover {
     font-weight: bold;
     @apply text-primary;
     text-decoration: none;
+    @apply p-small;
+}
+
+.menu > .menu-item > a:hover,
+.menu > .menu-item > a:focus,
+.menu > .menu-item > a:active {
+    @apply text-background;
+    @apply bg-primary;
 }
 
 .menu {
@@ -280,6 +288,7 @@ a:hover {
     @apply bg-primary;
     @apply text-background;
     display: block;
+    text-decoration: underline;
 }
 
 .sub-menu a:hover {

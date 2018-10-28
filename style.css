@@ -3572,6 +3572,14 @@ a:hover {
   font-weight: bold;
   color: rgb(130, 15, 30);
   text-decoration: none;
+  padding: .5rem;
+}
+
+.menu > .menu-item > a:hover,
+.menu > .menu-item > a:focus,
+.menu > .menu-item > a:active {
+  color: rgb(254, 254, 254);
+  background-color: rgb(130, 15, 30);
 }
 
 .menu {
@@ -3600,6 +3608,7 @@ a:hover {
   background-color: rgb(130, 15, 30);
   color: rgb(254, 254, 254);
   display: block;
+  text-decoration: underline;
 }
 
 .sub-menu a:hover {
