@@ -257,6 +257,7 @@ a:hover {
 
 .nav-panel .menu-new-menu-container > ul > li {
     display: block;
+    position: relative;
 }
 
 .nav-panel .menu-new-menu-container > ul > li > a {
@@ -284,4 +285,16 @@ a:hover {
 .nav-panel .menu-new-menu-container li:hover ul,
 .nav-panel .menu-new-menu-container li:hover li {
     display: block;
+}
+
+.nav-panel .menu-new-menu-container > ul > li > ul a {
+    @apply bg-primary;
+    @apply text-background;
+    @apply p-small;
+}
+
+.nav-panel .menu-new-menu-container > ul > li > ul a:hover,
+.nav-panel .menu-new-menu-container > ul > li > ul a:focus,
+.nav-panel .menu-new-menu-container > ul > li > ul a:active {
+    @apply bg-foreground;
 }
