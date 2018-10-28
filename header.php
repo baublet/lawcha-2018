@@ -43,7 +43,7 @@
         <div class="nav-panel toggle-panel p-normal hidden desktop:block relative">
             <?php wp_nav_menu(array('main' => 'Primary Menu')); ?>
         </div>
-        <div class="nav-panel-mobile desktop:hidden">
+        <div class="nav-panel-mobile toggle-panel desktop:hidden">
             <?php wp_nav_menu(array('main' => 'Primary Menu')); ?>
         </div>
     </div>
