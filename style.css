@@ -3569,6 +3569,7 @@ a:hover {
  */
 
 .menu > .menu-item > a {
+  display: block;
   font-weight: bold;
   color: rgb(130, 15, 30);
   text-decoration: none;

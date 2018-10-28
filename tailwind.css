@@ -249,6 +249,7 @@ a:hover {
  */
 
 .menu > .menu-item > a {
+    display: block;
     font-weight: bold;
     @apply text-primary;
     text-decoration: none;
