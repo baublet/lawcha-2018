@@ -243,3 +243,23 @@ a:hover {
 .toggle-check:checked ~ .toggle-panel {
     display: block;
 }
+
+.nav-panel li {
+    display: none;
+}
+
+.nav-panel .menu-new-menu-container > ul {
+    display: flex;
+    position: relative;
+}
+
+.nav-panel .menu-new-menu-container > ul > li {
+    display: block;
+}
+
+.nav-panel .menu-new-menu-container > ul > li > ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 250px;
+}
