@@ -43,7 +43,7 @@
         </div>
         <input type="checkbox" id="nav-toggle" class="toggle-check desktop:hidden">
         <label for="nav-toggle" id="nav-toggle-label" class="toggle-label desktop:hidden bg-primaryLight text-background text-center font-bold cursor-pointer py-normal block">Navigation</label>
-        <div class="nav-panel-mobile toggle-panel desktop:hidden p-normal text-normal overflow-hidden overflow-y-scroll z-50 max-h-screen">
+        <div class="nav-panel-mobile toggle-panel desktop:hidden p-normal text-normal overflow-hidden overflow-y-scroll z-50 max-h-screen shadow-lg">
             <?php wp_nav_menu(array('main' => 'Primary Menu')); ?>
         </div>
     </div>
