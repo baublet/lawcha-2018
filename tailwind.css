@@ -307,3 +307,13 @@ a:hover {
     left: 100%;
     top: 0;
 }
+
+.content ul,
+.nav-panel-mobile ul {
+    @apply pl-normal;
+}
+
+.content li + li,
+.nav-panel-mobile li + li {
+    @apply mt-normal;
+}

@@ -3628,6 +3628,16 @@ a:hover {
   top: 0;
 }
 
+.content ul,
+.nav-panel-mobile ul {
+  padding-left: 1rem;
+}
+
+.content li + li,
+.nav-panel-mobile li + li {
+  margin-top: 1rem;
+}
+
 @media (min-width: 768px) {
   .desktop\:list-reset {
     list-style: none;
