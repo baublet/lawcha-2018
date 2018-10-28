@@ -40,7 +40,7 @@
     <div class="header-nav desktop:flex-grow relative">
         <input type="checkbox" id="nav-toggle" class="toggle-check">
         <label for="nav-toggle" id="nav-toggle-label" class="toggle-label">Navigation</label>
-        <div class="toggle-panel p-normal">
+        <div class="toggle-panel p-normal desktop:block">
             <?php wp_nav_menu(array('main' => 'Primary Menu')); ?>
         </div>
     </div>
