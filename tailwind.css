@@ -279,7 +279,6 @@ a:hover {
     position: absolute;
     top: 100%;
     left: 0;
-    width: 250px;
 }
 
 .nav-panel .menu-new-menu-container li:hover ul,
@@ -288,6 +287,8 @@ a:hover {
 }
 
 .nav-panel .menu-new-menu-container > ul > li > ul a {
+    display: block;
+    width: 250px;
     @apply bg-primary;
     @apply text-background;
     @apply p-small;

@@ -3599,7 +3599,6 @@ a:hover {
   position: absolute;
   top: 100%;
   left: 0;
-  width: 250px;
 }
 
 .nav-panel .menu-new-menu-container li:hover ul,
@@ -3608,6 +3607,8 @@ a:hover {
 }
 
 .nav-panel .menu-new-menu-container > ul > li > ul a {
+  display: block;
+  width: 250px;
   background-color: rgb(130, 15, 30);
   color: rgb(254, 254, 254);
   padding: .5rem;
