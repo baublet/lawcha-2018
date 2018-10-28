@@ -262,6 +262,7 @@ a:hover {
     display: block;
     text-decoration: none;
     font-weight: bold;
+    @apply p-small;
 }
 
 .nav-panel .menu-new-menu-container > ul > li > a:hover,

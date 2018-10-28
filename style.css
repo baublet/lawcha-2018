@@ -3582,6 +3582,7 @@ a:hover {
   display: block;
   text-decoration: none;
   font-weight: bold;
+  padding: .5rem;
 }
 
 .nav-panel .menu-new-menu-container > ul > li > a:hover,
