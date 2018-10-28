@@ -37,12 +37,12 @@
         </div>
     </header>
 
-    <div class="header-nav desktop:flex-grow relative">
+    <div class="header-nav fixed pin-t pin-r pin-b pin-l bg-background desktop:bg-transparent desktop:flex-grow desktop:relative">
         <div class="nav-panel p-normal hidden desktop:block relative">
             <?php wp_nav_menu(array('main' => 'Primary Menu')); ?>
         </div>
         <input type="checkbox" id="nav-toggle" class="toggle-check desktop:hidden">
-        <label for="nav-toggle" id="nav-toggle-label" class="toggle-label desktop:hidden fixed pin-t pin-r pin-l bg-primaryLight text-background text-center font-bold cursor-pointer py-normal">Navigation</label>
+        <label for="nav-toggle" id="nav-toggle-label" class="toggle-label desktop:hidden bg-primaryLight text-background text-center font-bold cursor-pointer py-normal">Navigation</label>
         <div class="nav-panel-mobile toggle-panel desktop:hidden">
             <?php wp_nav_menu(array('main' => 'Primary Menu')); ?>
         </div>
