@@ -3574,6 +3574,15 @@ a:hover {
   text-decoration: none;
 }
 
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu .menu {
+  flex-direction: row;
+}
+
 .menu-item {
   position: relative;
 }
