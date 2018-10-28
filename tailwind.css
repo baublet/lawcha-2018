@@ -231,3 +231,15 @@ a:hover {
 .longForm p + p {
     @apply mt-normal;
 }
+
+.toggle-check {
+    @apply .screen-reader-text;
+}
+
+.toggle-panel {
+    display: none;
+}
+
+.toggle-check:checked ~ .toggle-panel {
+    display: block;
+}
