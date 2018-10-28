@@ -276,7 +276,7 @@ a:hover {
 }
 
 .sub-menu a {
-    @apply p-sm;
+    @apply p-small;
     @apply bg-primary;
     @apply text-background;
 }

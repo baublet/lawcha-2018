@@ -3595,6 +3595,16 @@ a:hover {
   left: 0;
 }
 
+.sub-menu a {
+  padding: .5rem;
+  background-color: rgb(130, 15, 30);
+  color: rgb(254, 254, 254);
+}
+
+.sub-menu a:hover {
+  background-color: rgb(51, 51, 51);
+}
+
 .menu-item:hover > .sub-menu,
 .menu-item:active > .sub-menu,
 .menu-item:focus > .sub-menu {
