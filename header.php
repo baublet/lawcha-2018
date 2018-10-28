@@ -22,7 +22,7 @@
 
 <a class="screen-reader-text" href="#content"><?php echo 'Skip to content'; ?></a>
 
-<div class="header contentBlock desktop:flex desktop:justify-between items-end text-sm no-underline">
+<div class="header contentBlock desktop:flex desktop:justify-between items-end text-xs no-underline">
     <header id="top" class="desktop:max-w-xs">
         <div class="brand">
             <h1 class="site-title bg-primary p-normal pt-largest">
