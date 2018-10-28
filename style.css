@@ -3608,7 +3608,7 @@ a:hover {
   background-color: rgb(130, 15, 30);
   color: rgb(254, 254, 254);
   display: block;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .sub-menu a:hover {
@@ -3623,6 +3623,7 @@ a:hover {
 
 .sub-menu .menu-item .sub-menu {
   left: 100%;
+  top: 0;
 }
 
 @media (min-width: 768px) {

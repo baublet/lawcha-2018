@@ -288,7 +288,7 @@ a:hover {
     @apply bg-primary;
     @apply text-background;
     display: block;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .sub-menu a:hover {
@@ -303,4 +303,5 @@ a:hover {
 
 .sub-menu .menu-item .sub-menu {
     left: 100%;
+    top: 0;
 }
