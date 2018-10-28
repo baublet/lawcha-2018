@@ -3601,7 +3601,8 @@ a:hover {
   width: 250px;
 }
 
-.nav-panel .menu-new-menu-container li:hover ul {
+.nav-panel .menu-new-menu-container li:hover ul,
+.nav-panel .menu-new-menu-container li:hover li {
   display: block;
 }
 
