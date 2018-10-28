@@ -254,6 +254,7 @@ a:hover {
     @apply text-primary;
     text-decoration: none;
     @apply p-small;
+    text-align: center;
 }
 
 .menu > .menu-item > a:hover,
