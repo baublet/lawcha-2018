@@ -3699,6 +3699,14 @@ a:hover {
   background-size: cover;
 }
 
+.customize-support #wpadminbar {
+  display: none !important;
+}
+
+@media (min-width: 940px) {
+  display: block !important;
+}
+
 @media (min-width: 940px) {
   .desktop\:list-reset {
     list-style: none;

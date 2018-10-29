@@ -368,3 +368,11 @@ a:hover {
     background: url(images/home-banner-images/index.php) top center fixed;
     background-size: cover;
 }
+
+.customize-support #wpadminbar {
+    display: none !important;
+}
+
+@screen desktop {
+    display: block !important;
+}
