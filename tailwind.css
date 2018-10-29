@@ -304,7 +304,7 @@ a:hover {
 }
 
 .nav-panel .sub-menu a {
-    @apply p-small;
+    @apply p-normal;
     @apply bg-primary;
     @apply text-background;
     display: block;
@@ -358,9 +358,8 @@ a:hover {
 
 .home-about {
     position: relative;
-    padding-top: 56.25%;
+    padding-top: 66.666%;
     @apply w-screen;
-    background: url(image/home-banner-images/index.php) center center fixed;
-    background-position: contain;
-    @apply p-normal;
+    background: url(images/home-banner-images/index.php) top center fixed;
+    background-size: contain;
 }

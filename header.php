@@ -39,7 +39,7 @@
         </div>
     </header>
 
-    <div class="header-nav fixed pin-t pin-r pin-l max-h-screen bg-background desktop:bg-transparent desktop:flex-grow desktop:relative max-h-screen desktop:max-h-none overflow-y-scroll desktop:overflow-y-visible">
+    <div class="header-nav fixed pin-t pin-r pin-l max-h-screen bg-background desktop:bg-transparent desktop:flex-grow desktop:relative max-h-screen desktop:max-h-none overflow-y-scroll desktop:overflow-y-visible z-50">
         <div class="nav-panel p-normal hidden desktop:block relative">
             <?php wp_nav_menu(array('main' => 'Primary Menu')); ?>
         </div>

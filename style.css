@@ -3632,7 +3632,7 @@ a:hover {
 }
 
 .nav-panel .sub-menu a {
-  padding: .5rem;
+  padding: 1rem;
   background-color: rgb(130, 15, 30);
   color: rgb(254, 254, 254);
   display: block;
@@ -3688,11 +3688,10 @@ a:hover {
 
 .home-about {
   position: relative;
-  padding-top: 56.25%;
+  padding-top: 66.666%;
   width: 100vw;
-  background: url(image/home-banner-images/index.php) center center fixed;
-  background-position: contain;
-  padding: 1rem;
+  background: url(images/home-banner-images/index.php) top center fixed;
+  background-size: contain;
 }
 
 @media (min-width: 768px) {
