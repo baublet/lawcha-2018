@@ -2043,6 +2043,10 @@ table {
   max-height: 100%;
 }
 
+.max-h-none {
+  max-height: none;
+}
+
 .max-h-screen {
   max-height: 100vh;
 }
@@ -4932,6 +4936,10 @@ a:hover {
 
   .desktop\:max-h-full {
     max-height: 100%;
+  }
+
+  .desktop\:max-h-none {
+    max-height: none;
   }
 
   .desktop\:max-h-screen {

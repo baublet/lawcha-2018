@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?> class="no-js overflow-x-hidden p-0 min-w-screen">
+<html <?php language_attributes(); ?> class="no-js min-w-screen">
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +18,7 @@
     <?php lawcha_wp_head(); ?>
 </head>
 
-<body class="font-normal text-base text-foreground bg-background overflow-x-hidden p-0 min-w-screen">
+<body class="font-normal text-base text-foreground bg-background relative">
 
 <a class="screen-reader-text" href="#content"><?php echo 'Skip to content'; ?></a>
 
@@ -37,13 +37,13 @@
         </div>
     </header>
 
-    <div class="header-nav fixed pin-t pin-r pin-l max-h-screen bg-background desktop:bg-transparent desktop:flex-grow desktop:relative">
+    <div class="header-nav fixed pin-t pin-r pin-l max-h-screen bg-background desktop:bg-transparent desktop:flex-grow desktop:relative max-h-screen desktop:max-h-none overflow-y-scroll">
         <div class="nav-panel p-normal hidden desktop:block relative">
             <?php wp_nav_menu(array('main' => 'Primary Menu')); ?>
         </div>
         <input type="checkbox" id="nav-toggle" class="toggle-check desktop:hidden">
         <label for="nav-toggle" id="nav-toggle-label" class="toggle-label desktop:hidden bg-primaryLight text-background text-center font-bold cursor-pointer py-normal block">Navigation</label>
-        <div class="nav-panel-mobile toggle-panel desktop:hidden p-normal text-normal overflow-hidden overflow-y-scroll z-50 max-h-screen shadow-lg bg-foreground">
+        <div class="nav-panel-mobile toggle-panel desktop:hidden p-normal text-normal overflow-hidden shadow-lg bg-foreground">
             <?php wp_nav_menu(array('main' => 'Primary Menu')); ?>
         </div>
     </div>
