@@ -25,7 +25,7 @@
 <div class="header contentBlock desktop:flex desktop:justify-between items-end text-xs no-underline">
     <header id="top" class="desktop:max-w-xs">
         <div class="brand">
-            <h1 class="site-title bg-primary p-normal pt-largest">
+            <h1 class="site-title bg-primary p-normal desktop:pt-largest">
                 <a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
                     <img src="<?= get_template_directory_uri() ?>/images/brand.png" alt="<?php bloginfo('name'); ?>" />
                     <span class="screen-reader-text">
