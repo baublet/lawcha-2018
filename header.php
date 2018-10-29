@@ -18,7 +18,7 @@
     <?php lawcha_wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?> class="font-normal text-base text-foreground bg-background overflow-x-hidden p-0 min-w-screen">
+<body class="font-normal text-base text-foreground bg-background overflow-x-hidden p-0 min-w-screen">
 
 <a class="screen-reader-text" href="#content"><?php echo 'Skip to content'; ?></a>
 
