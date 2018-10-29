@@ -3465,6 +3465,17 @@ table {
   z-index: auto;
 }
 
+body {
+  background: url(images/back-banner-md.png) top center no-repeat;
+  background-size: contain;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(images/back-banner-hd.png);
+  }
+}
+
 .screen-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);

@@ -33,16 +33,20 @@
                     </span>
                 </a>
             </h1>
-            <h2 class="screen-reader-text"><?php echo get_bloginfo('description', 'display'); ?></h2>
+            <h2 class="screen-reader-text">
+                <?php echo get_bloginfo('description', 'display'); ?>
+            </h2>
         </div>
     </header>
 
-    <div class="header-nav fixed pin-t pin-r pin-l max-h-screen bg-background desktop:bg-transparent desktop:flex-grow desktop:relative max-h-screen desktop:max-h-none overflow-y-scroll">
+    <div class="header-nav fixed pin-t pin-r pin-l max-h-screen bg-background desktop:bg-transparent desktop:flex-grow desktop:relative max-h-screen desktop:max-h-none overflow-y-scroll desktop:overflow-y-visible">
         <div class="nav-panel p-normal hidden desktop:block relative">
             <?php wp_nav_menu(array('main' => 'Primary Menu')); ?>
         </div>
         <input type="checkbox" id="nav-toggle" class="toggle-check desktop:hidden">
-        <label for="nav-toggle" id="nav-toggle-label" class="toggle-label desktop:hidden bg-primaryLight text-background text-center font-bold cursor-pointer py-normal block">Navigation</label>
+        <label for="nav-toggle" id="nav-toggle-label" class="toggle-label desktop:hidden bg-primaryLight text-background text-center font-bold cursor-pointer py-normal block">
+            Navigation
+        </label>
         <div class="nav-panel-mobile toggle-panel desktop:hidden p-normal text-normal overflow-hidden shadow-lg bg-foreground">
             <?php wp_nav_menu(array('main' => 'Primary Menu')); ?>
         </div>
