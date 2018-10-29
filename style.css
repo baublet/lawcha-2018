@@ -3631,11 +3631,6 @@ a:hover {
   left: 0;
 }
 
-.nav-panel .menu-item-6365 .sub-menu {
-  left: auto;
-  right: 100%;
-}
-
 .nav-panel .sub-menu a {
   padding: 1rem;
   background-color: rgb(130, 15, 30);
@@ -3657,6 +3652,11 @@ a:hover {
 .nav-panel .sub-menu .menu-item .sub-menu {
   left: 100%;
   top: 0;
+}
+
+.nav-panel .sub-menu .menu-item-6365 .sub-menu {
+  left: auto;
+  right: 100%;
 }
 
 .content ul,
