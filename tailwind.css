@@ -319,6 +319,19 @@ a:hover {
     @apply my-x-small;
 }
 
+.nav-panel-mobile a {
+    @apply text-background;
+    text-decoration: none;
+    display: inline-block;
+    @apply p-x-small;
+}
+
+.nav-panel-mobile a:hover,
+.nav-panel-mobile a:focus,
+.nav-panel-mobile a:active {
+    text-decoration: underline;
+}
+
 @screen desktop {
     .nav-panel-mobile {
         display: none !important;
