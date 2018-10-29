@@ -3549,6 +3549,11 @@ a:hover {
   margin: 0 auto;
 }
 
+.contentPanel {
+  background-color: rgb(254, 254, 254);
+  padding: 1rem;
+}
+
 .longForm {
   font-family: bitter, merriweather, serif;
   line-height: 1.6;
@@ -3602,6 +3607,7 @@ a:hover {
 .nav-panel .menu > .menu-item > a:active {
   color: rgb(254, 254, 254);
   background-color: rgb(130, 15, 30);
+  text-shadow: none;
 }
 
 .nav-panel .menu {
@@ -3678,6 +3684,15 @@ a:hover {
   .nav-panel-mobile {
     display: none !important;
   }
+}
+
+.home-about {
+  position: relative;
+  padding-top: 56.25%;
+  width: 100vw;
+  background: url(image/home-banner-images/index.php) center center fixed;
+  background-position: contain;
+  padding: 1rem;
 }
 
 @media (min-width: 768px) {

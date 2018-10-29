@@ -230,6 +230,11 @@ a:hover {
     margin: 0 auto;
 }
 
+.contentPanel {
+    @apply bg-background;
+    @apply p-normal;
+}
+
 .longForm {
     @apply font-longForm;
     @apply leading-loose;
@@ -274,6 +279,7 @@ a:hover {
 .nav-panel .menu > .menu-item > a:active {
     @apply text-background;
     @apply bg-primary;
+    text-shadow: none;
 }
 
 .nav-panel .menu {
@@ -348,4 +354,13 @@ a:hover {
     .nav-panel-mobile {
         display: none !important;
     }
+}
+
+.home-about {
+    position: relative;
+    padding-top: 56.25%;
+    @apply w-screen;
+    background: url(image/home-banner-images/index.php) center center fixed;
+    background-position: contain;
+    @apply p-normal;
 }
