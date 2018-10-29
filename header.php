@@ -53,4 +53,4 @@
     </div>
 </div>
 
-<div id="content" class="content">
+<div id="content" class="contentBlock">

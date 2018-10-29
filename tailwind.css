@@ -262,10 +262,11 @@ a:hover {
 .nav-panel .menu > .menu-item > a {
     display: block;
     font-weight: bold;
-    @apply text-primary;
+    @apply text-foreground;
     text-decoration: none;
     @apply p-small;
     text-align: center;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
 }
 
 .nav-panel .menu > .menu-item > a:hover,
@@ -277,7 +278,7 @@ a:hover {
 
 .nav-panel .menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .nav-panel .menu .menu {
