@@ -18,7 +18,7 @@
     <?php lawcha_wp_head(); ?>
 </head>
 
-<body class="font-normal text-base text-foreground bg-background relative overflow-x-hidden">
+<body class="font-normal text-base text-foreground bg-background relative leading-normal overflow-x-hidden">
 
 <a class="screen-reader-text" href="#content"><?php echo 'Skip to content'; ?></a>
 
@@ -39,12 +39,12 @@
         </div>
     </header>
 
-    <div class="header-nav fixed pin-t pin-r pin-l max-h-screen bg-background desktop:bg-transparent desktop:flex-grow desktop:relative max-h-screen desktop:max-h-none overflow-y-scroll desktop:overflow-y-visible z-50">
+    <div class="header-nav fixed pin-t pin-r pin-l max-h-screen bg-background desktop:bg-transparent desktop:flex-grow desktop:relative max-h-screen desktop:max-h-none overflow-y-auto desktop:overflow-y-visible z-50">
         <div class="nav-panel p-normal hidden desktop:block relative">
             <?php wp_nav_menu(array('main' => 'Primary Menu')); ?>
         </div>
         <input type="checkbox" id="nav-toggle" class="toggle-check desktop:hidden">
-        <label for="nav-toggle" id="nav-toggle-label" class="toggle-label desktop:hidden bg-primaryLight text-background text-center font-bold cursor-pointer py-normal block">
+        <label for="nav-toggle" id="nav-toggle-label" class="toggle-label block w-full desktop:hidden bg-primaryLight text-background text-center font-bold cursor-pointer py-normal block">
             Navigation
         </label>
         <div class="nav-panel-mobile toggle-panel desktop:hidden p-normal text-normal overflow-hidden shadow-lg bg-foreground">
