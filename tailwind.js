@@ -5,10 +5,14 @@ let colors = {
   foreground: "rgb(51,51,51)",
   foregroundLight: "rgba(51,51,51, 0.5)",
   foregroundSlight: "rgba(51,51,51, 0.05)",
+  foreground50: "rgb(51,51,51,.5)",
+  foreground75: "rgb(51,51,51,.75)",
 
   background: "rgb(254,254,254)",
   backgroundLight: "rgba(254,254,254, 0.5)",
   backgroundSlight: "rgba(254,254,254, 0.05)",
+  background50: "rgb(254,254,254,.5)",
+  background76: "rgb(254,254,254,.75)",
 
   primary: "rgb(130, 15, 30)",
   primaryDark: "rgb(90, 0, 0)",

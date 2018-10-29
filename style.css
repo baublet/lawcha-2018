@@ -807,6 +807,14 @@ table {
   background-color: rgba(51, 51, 51, .05);
 }
 
+.bg-foreground50 {
+  background-color: rgb(51, 51, 51, .5);
+}
+
+.bg-foreground75 {
+  background-color: rgb(51, 51, 51, .75);
+}
+
 .bg-background {
   background-color: rgb(254, 254, 254);
 }
@@ -817,6 +825,14 @@ table {
 
 .bg-backgroundSlight {
   background-color: rgba(254, 254, 254, .05);
+}
+
+.bg-background50 {
+  background-color: rgb(254, 254, 254, .5);
+}
+
+.bg-background76 {
+  background-color: rgb(254, 254, 254, .75);
 }
 
 .bg-primary {
@@ -867,6 +883,14 @@ table {
   background-color: rgba(51, 51, 51, .05);
 }
 
+.hover\:bg-foreground50:hover {
+  background-color: rgb(51, 51, 51, .5);
+}
+
+.hover\:bg-foreground75:hover {
+  background-color: rgb(51, 51, 51, .75);
+}
+
 .hover\:bg-background:hover {
   background-color: rgb(254, 254, 254);
 }
@@ -877,6 +901,14 @@ table {
 
 .hover\:bg-backgroundSlight:hover {
   background-color: rgba(254, 254, 254, .05);
+}
+
+.hover\:bg-background50:hover {
+  background-color: rgb(254, 254, 254, .5);
+}
+
+.hover\:bg-background76:hover {
+  background-color: rgb(254, 254, 254, .75);
 }
 
 .hover\:bg-primary:hover {
@@ -927,6 +959,14 @@ table {
   background-color: rgba(51, 51, 51, .05);
 }
 
+.focus\:bg-foreground50:focus {
+  background-color: rgb(51, 51, 51, .5);
+}
+
+.focus\:bg-foreground75:focus {
+  background-color: rgb(51, 51, 51, .75);
+}
+
 .focus\:bg-background:focus {
   background-color: rgb(254, 254, 254);
 }
@@ -937,6 +977,14 @@ table {
 
 .focus\:bg-backgroundSlight:focus {
   background-color: rgba(254, 254, 254, .05);
+}
+
+.focus\:bg-background50:focus {
+  background-color: rgb(254, 254, 254, .5);
+}
+
+.focus\:bg-background76:focus {
+  background-color: rgb(254, 254, 254, .75);
 }
 
 .focus\:bg-primary:focus {
@@ -1059,6 +1107,14 @@ table {
   border-color: rgba(51, 51, 51, .05);
 }
 
+.border-foreground50 {
+  border-color: rgb(51, 51, 51, .5);
+}
+
+.border-foreground75 {
+  border-color: rgb(51, 51, 51, .75);
+}
+
 .border-background {
   border-color: rgb(254, 254, 254);
 }
@@ -1069,6 +1125,14 @@ table {
 
 .border-backgroundSlight {
   border-color: rgba(254, 254, 254, .05);
+}
+
+.border-background50 {
+  border-color: rgb(254, 254, 254, .5);
+}
+
+.border-background76 {
+  border-color: rgb(254, 254, 254, .75);
 }
 
 .border-primary {
@@ -1119,6 +1183,14 @@ table {
   border-color: rgba(51, 51, 51, .05);
 }
 
+.hover\:border-foreground50:hover {
+  border-color: rgb(51, 51, 51, .5);
+}
+
+.hover\:border-foreground75:hover {
+  border-color: rgb(51, 51, 51, .75);
+}
+
 .hover\:border-background:hover {
   border-color: rgb(254, 254, 254);
 }
@@ -1129,6 +1201,14 @@ table {
 
 .hover\:border-backgroundSlight:hover {
   border-color: rgba(254, 254, 254, .05);
+}
+
+.hover\:border-background50:hover {
+  border-color: rgb(254, 254, 254, .5);
+}
+
+.hover\:border-background76:hover {
+  border-color: rgb(254, 254, 254, .75);
 }
 
 .hover\:border-primary:hover {
@@ -1179,6 +1259,14 @@ table {
   border-color: rgba(51, 51, 51, .05);
 }
 
+.focus\:border-foreground50:focus {
+  border-color: rgb(51, 51, 51, .5);
+}
+
+.focus\:border-foreground75:focus {
+  border-color: rgb(51, 51, 51, .75);
+}
+
 .focus\:border-background:focus {
   border-color: rgb(254, 254, 254);
 }
@@ -1189,6 +1277,14 @@ table {
 
 .focus\:border-backgroundSlight:focus {
   border-color: rgba(254, 254, 254, .05);
+}
+
+.focus\:border-background50:focus {
+  border-color: rgb(254, 254, 254, .5);
+}
+
+.focus\:border-background76:focus {
+  border-color: rgb(254, 254, 254, .75);
 }
 
 .focus\:border-primary:focus {
@@ -2897,6 +2993,14 @@ table {
   color: rgba(51, 51, 51, .05);
 }
 
+.text-foreground50 {
+  color: rgb(51, 51, 51, .5);
+}
+
+.text-foreground75 {
+  color: rgb(51, 51, 51, .75);
+}
+
 .text-background {
   color: rgb(254, 254, 254);
 }
@@ -2907,6 +3011,14 @@ table {
 
 .text-backgroundSlight {
   color: rgba(254, 254, 254, .05);
+}
+
+.text-background50 {
+  color: rgb(254, 254, 254, .5);
+}
+
+.text-background76 {
+  color: rgb(254, 254, 254, .75);
 }
 
 .text-primary {
@@ -2957,6 +3069,14 @@ table {
   color: rgba(51, 51, 51, .05);
 }
 
+.hover\:text-foreground50:hover {
+  color: rgb(51, 51, 51, .5);
+}
+
+.hover\:text-foreground75:hover {
+  color: rgb(51, 51, 51, .75);
+}
+
 .hover\:text-background:hover {
   color: rgb(254, 254, 254);
 }
@@ -2967,6 +3087,14 @@ table {
 
 .hover\:text-backgroundSlight:hover {
   color: rgba(254, 254, 254, .05);
+}
+
+.hover\:text-background50:hover {
+  color: rgb(254, 254, 254, .5);
+}
+
+.hover\:text-background76:hover {
+  color: rgb(254, 254, 254, .75);
 }
 
 .hover\:text-primary:hover {
@@ -3017,6 +3145,14 @@ table {
   color: rgba(51, 51, 51, .05);
 }
 
+.focus\:text-foreground50:focus {
+  color: rgb(51, 51, 51, .5);
+}
+
+.focus\:text-foreground75:focus {
+  color: rgb(51, 51, 51, .75);
+}
+
 .focus\:text-background:focus {
   color: rgb(254, 254, 254);
 }
@@ -3027,6 +3163,14 @@ table {
 
 .focus\:text-backgroundSlight:focus {
   color: rgba(254, 254, 254, .05);
+}
+
+.focus\:text-background50:focus {
+  color: rgb(254, 254, 254, .5);
+}
+
+.focus\:text-background76:focus {
+  color: rgb(254, 254, 254, .75);
 }
 
 .focus\:text-primary:focus {
@@ -3749,6 +3893,14 @@ a:hover {
     background-color: rgba(51, 51, 51, .05);
   }
 
+  .desktop\:bg-foreground50 {
+    background-color: rgb(51, 51, 51, .5);
+  }
+
+  .desktop\:bg-foreground75 {
+    background-color: rgb(51, 51, 51, .75);
+  }
+
   .desktop\:bg-background {
     background-color: rgb(254, 254, 254);
   }
@@ -3759,6 +3911,14 @@ a:hover {
 
   .desktop\:bg-backgroundSlight {
     background-color: rgba(254, 254, 254, .05);
+  }
+
+  .desktop\:bg-background50 {
+    background-color: rgb(254, 254, 254, .5);
+  }
+
+  .desktop\:bg-background76 {
+    background-color: rgb(254, 254, 254, .75);
   }
 
   .desktop\:bg-primary {
@@ -3809,6 +3969,14 @@ a:hover {
     background-color: rgba(51, 51, 51, .05);
   }
 
+  .desktop\:hover\:bg-foreground50:hover {
+    background-color: rgb(51, 51, 51, .5);
+  }
+
+  .desktop\:hover\:bg-foreground75:hover {
+    background-color: rgb(51, 51, 51, .75);
+  }
+
   .desktop\:hover\:bg-background:hover {
     background-color: rgb(254, 254, 254);
   }
@@ -3819,6 +3987,14 @@ a:hover {
 
   .desktop\:hover\:bg-backgroundSlight:hover {
     background-color: rgba(254, 254, 254, .05);
+  }
+
+  .desktop\:hover\:bg-background50:hover {
+    background-color: rgb(254, 254, 254, .5);
+  }
+
+  .desktop\:hover\:bg-background76:hover {
+    background-color: rgb(254, 254, 254, .75);
   }
 
   .desktop\:hover\:bg-primary:hover {
@@ -3869,6 +4045,14 @@ a:hover {
     background-color: rgba(51, 51, 51, .05);
   }
 
+  .desktop\:focus\:bg-foreground50:focus {
+    background-color: rgb(51, 51, 51, .5);
+  }
+
+  .desktop\:focus\:bg-foreground75:focus {
+    background-color: rgb(51, 51, 51, .75);
+  }
+
   .desktop\:focus\:bg-background:focus {
     background-color: rgb(254, 254, 254);
   }
@@ -3879,6 +4063,14 @@ a:hover {
 
   .desktop\:focus\:bg-backgroundSlight:focus {
     background-color: rgba(254, 254, 254, .05);
+  }
+
+  .desktop\:focus\:bg-background50:focus {
+    background-color: rgb(254, 254, 254, .5);
+  }
+
+  .desktop\:focus\:bg-background76:focus {
+    background-color: rgb(254, 254, 254, .75);
   }
 
   .desktop\:focus\:bg-primary:focus {
@@ -3993,6 +4185,14 @@ a:hover {
     border-color: rgba(51, 51, 51, .05);
   }
 
+  .desktop\:border-foreground50 {
+    border-color: rgb(51, 51, 51, .5);
+  }
+
+  .desktop\:border-foreground75 {
+    border-color: rgb(51, 51, 51, .75);
+  }
+
   .desktop\:border-background {
     border-color: rgb(254, 254, 254);
   }
@@ -4003,6 +4203,14 @@ a:hover {
 
   .desktop\:border-backgroundSlight {
     border-color: rgba(254, 254, 254, .05);
+  }
+
+  .desktop\:border-background50 {
+    border-color: rgb(254, 254, 254, .5);
+  }
+
+  .desktop\:border-background76 {
+    border-color: rgb(254, 254, 254, .75);
   }
 
   .desktop\:border-primary {
@@ -4053,6 +4261,14 @@ a:hover {
     border-color: rgba(51, 51, 51, .05);
   }
 
+  .desktop\:hover\:border-foreground50:hover {
+    border-color: rgb(51, 51, 51, .5);
+  }
+
+  .desktop\:hover\:border-foreground75:hover {
+    border-color: rgb(51, 51, 51, .75);
+  }
+
   .desktop\:hover\:border-background:hover {
     border-color: rgb(254, 254, 254);
   }
@@ -4063,6 +4279,14 @@ a:hover {
 
   .desktop\:hover\:border-backgroundSlight:hover {
     border-color: rgba(254, 254, 254, .05);
+  }
+
+  .desktop\:hover\:border-background50:hover {
+    border-color: rgb(254, 254, 254, .5);
+  }
+
+  .desktop\:hover\:border-background76:hover {
+    border-color: rgb(254, 254, 254, .75);
   }
 
   .desktop\:hover\:border-primary:hover {
@@ -4113,6 +4337,14 @@ a:hover {
     border-color: rgba(51, 51, 51, .05);
   }
 
+  .desktop\:focus\:border-foreground50:focus {
+    border-color: rgb(51, 51, 51, .5);
+  }
+
+  .desktop\:focus\:border-foreground75:focus {
+    border-color: rgb(51, 51, 51, .75);
+  }
+
   .desktop\:focus\:border-background:focus {
     border-color: rgb(254, 254, 254);
   }
@@ -4123,6 +4355,14 @@ a:hover {
 
   .desktop\:focus\:border-backgroundSlight:focus {
     border-color: rgba(254, 254, 254, .05);
+  }
+
+  .desktop\:focus\:border-background50:focus {
+    border-color: rgb(254, 254, 254, .5);
+  }
+
+  .desktop\:focus\:border-background76:focus {
+    border-color: rgb(254, 254, 254, .75);
   }
 
   .desktop\:focus\:border-primary:focus {
@@ -5815,6 +6055,14 @@ a:hover {
     color: rgba(51, 51, 51, .05);
   }
 
+  .desktop\:text-foreground50 {
+    color: rgb(51, 51, 51, .5);
+  }
+
+  .desktop\:text-foreground75 {
+    color: rgb(51, 51, 51, .75);
+  }
+
   .desktop\:text-background {
     color: rgb(254, 254, 254);
   }
@@ -5825,6 +6073,14 @@ a:hover {
 
   .desktop\:text-backgroundSlight {
     color: rgba(254, 254, 254, .05);
+  }
+
+  .desktop\:text-background50 {
+    color: rgb(254, 254, 254, .5);
+  }
+
+  .desktop\:text-background76 {
+    color: rgb(254, 254, 254, .75);
   }
 
   .desktop\:text-primary {
@@ -5875,6 +6131,14 @@ a:hover {
     color: rgba(51, 51, 51, .05);
   }
 
+  .desktop\:hover\:text-foreground50:hover {
+    color: rgb(51, 51, 51, .5);
+  }
+
+  .desktop\:hover\:text-foreground75:hover {
+    color: rgb(51, 51, 51, .75);
+  }
+
   .desktop\:hover\:text-background:hover {
     color: rgb(254, 254, 254);
   }
@@ -5885,6 +6149,14 @@ a:hover {
 
   .desktop\:hover\:text-backgroundSlight:hover {
     color: rgba(254, 254, 254, .05);
+  }
+
+  .desktop\:hover\:text-background50:hover {
+    color: rgb(254, 254, 254, .5);
+  }
+
+  .desktop\:hover\:text-background76:hover {
+    color: rgb(254, 254, 254, .75);
   }
 
   .desktop\:hover\:text-primary:hover {
@@ -5935,6 +6207,14 @@ a:hover {
     color: rgba(51, 51, 51, .05);
   }
 
+  .desktop\:focus\:text-foreground50:focus {
+    color: rgb(51, 51, 51, .5);
+  }
+
+  .desktop\:focus\:text-foreground75:focus {
+    color: rgb(51, 51, 51, .75);
+  }
+
   .desktop\:focus\:text-background:focus {
     color: rgb(254, 254, 254);
   }
@@ -5945,6 +6225,14 @@ a:hover {
 
   .desktop\:focus\:text-backgroundSlight:focus {
     color: rgba(254, 254, 254, .05);
+  }
+
+  .desktop\:focus\:text-background50:focus {
+    color: rgb(254, 254, 254, .5);
+  }
+
+  .desktop\:focus\:text-background76:focus {
+    color: rgb(254, 254, 254, .75);
   }
 
   .desktop\:focus\:text-primary:focus {
