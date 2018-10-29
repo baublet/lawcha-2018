@@ -3691,7 +3691,7 @@ a:hover {
   padding-top: 66.666%;
   width: 100vw;
   background: url(images/home-banner-images/index.php) top center fixed;
-  background-size: contain;
+  background-size: cover;
 }
 
 @media (min-width: 768px) {

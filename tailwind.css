@@ -361,5 +361,5 @@ a:hover {
     padding-top: 66.666%;
     @apply w-screen;
     background: url(images/home-banner-images/index.php) top center fixed;
-    background-size: contain;
+    background-size: cover;
 }
