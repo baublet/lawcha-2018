@@ -359,7 +359,7 @@ a:hover {
 .home-about {
     position: relative;
     padding-top: 66.666%;
-    @apply w-screen;
+    @apply w-full;
     background: url(images/home-banner-images/index.php) top center fixed;
     background-size: cover;
 }
