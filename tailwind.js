@@ -24,7 +24,7 @@ let colors = {
 module.exports = {
   colors: colors,
   screens: {
-    desktop: "768px"
+    desktop: "940px"
   },
   fonts: {
     heading: ["bitter", "merriweather", "serif"],

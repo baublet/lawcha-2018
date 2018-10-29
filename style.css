@@ -760,9 +760,9 @@ table {
   width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 940px) {
   .container {
-    max-width: 768px;
+    max-width: 940px;
   }
 }
 
@@ -3470,7 +3470,7 @@ body {
   background-size: contain;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 940px) {
   body {
     background-image: url(images/back-banner-hd.png);
   }
@@ -3685,7 +3685,7 @@ a:hover {
   text-decoration: underline;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 940px) {
   .nav-panel-mobile {
     display: none !important;
   }
@@ -3699,7 +3699,7 @@ a:hover {
   background-size: cover;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 940px) {
   .desktop\:list-reset {
     list-style: none;
     padding: 0;
