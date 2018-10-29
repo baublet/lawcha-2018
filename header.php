@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?> class="no-js">
+<html <?php language_attributes(); ?> class="no-js overflow-x-hidden p-0 min-w-screen">
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +18,7 @@
     <?php lawcha_wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?> class="font-normal text-base text-foreground bg-background">
+<body <?php body_class(); ?> class="font-normal text-base text-foreground bg-background overflow-x-hidden p-0 min-w-screen">
 
 <a class="screen-reader-text" href="#content"><?php echo 'Skip to content'; ?></a>
 

@@ -2107,6 +2107,10 @@ table {
   min-width: 100%;
 }
 
+.min-w-screen {
+  min-width: 100vw;
+}
+
 .-m-0 {
   margin: 0;
 }
@@ -4992,6 +4996,10 @@ a:hover {
 
   .desktop\:min-w-full {
     min-width: 100%;
+  }
+
+  .desktop\:min-w-screen {
+    min-width: 100vw;
   }
 
   .desktop\:-m-0 {
