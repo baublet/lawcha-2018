@@ -92,12 +92,12 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -111,35 +111,35 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 body {
-    line-height: 1;
+  line-height: 1;
 }
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 blockquote,
 q {
-    quotes: none;
+  quotes: none;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: "";
-    content: none;
+  content: "";
+  content: none;
 }
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 *,
 *:after,
 *:before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @tailwind preflight;
@@ -147,43 +147,43 @@ table {
 @tailwind utilities;
 
 body {
-    background: url(images/back-banner-md.png) top center no-repeat;
-    background-size: contain;
+  background: url(images/back-banner-md.png) top center no-repeat;
+  background-size: contain;
 }
 
 @screen desktop {
-    body {
-        background-image: url(images/back-banner-hd.png);
-    }
+  body {
+    background-image: url(images/back-banner-hd.png);
+  }
 }
 
 .screen-reader-text {
-    border: 0;
-    clip: rect(1px, 1px, 1px, 1px);
-    clip-path: inset(50%);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute !important;
-    width: 1px;
-    word-wrap: normal !important;
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
 }
 
 .clear-right {
-    clear: right;
+  clear: right;
 }
 
 .clear-left {
-    clear: left;
+  clear: left;
 }
 
 a {
-    @apply text-primaryLight;
+  @apply text-primaryLight;
 }
 
 a:hover {
-    @apply text-foreground;
+  @apply text-foreground;
 }
 
 .h1,
@@ -192,72 +192,72 @@ a:hover {
 .h4,
 .h5,
 .h6 {
-    @apply font-heading;
-    @apply font-regular;
+  @apply font-heading;
+  @apply font-regular;
 }
 
 .h1 {
-    @apply text-5xl;
+  @apply text-5xl;
 }
 
 .h2 {
-    @apply text-4xl;
+  @apply text-4xl;
 }
 
 .h3 {
-    @apply text-3xl;
+  @apply text-3xl;
 }
 
 .h4,
 .h5,
 .h6 {
-    @apply text-2xl;
+  @apply text-2xl;
 }
 
 .h5,
 .h6 {
-    @apply font-normal;
-    @apply font-bold;
+  @apply font-normal;
+  @apply font-bold;
 }
 
 .h6 {
-    @apply text-sm;
+  @apply text-sm;
 }
 
 .contentBlock {
-    width: 940px;
-    max-width: 100%;
-    margin: 0 auto;
+  width: 940px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .contentPanel {
-    @apply bg-background;
-    @apply p-normal;
+  @apply bg-background;
+  @apply p-normal;
 }
 
 .longForm {
-    @apply font-longForm;
-    @apply leading-loose;
+  @apply font-longForm;
+  @apply leading-loose;
 }
 
 .longForm p {
-    max-width: 640px;
+  max-width: 640px;
 }
 
 .longForm p + p {
-    @apply mt-normal;
+  @apply mt-normal;
 }
 
 .toggle-check {
-    @apply screen-reader-text;
+  @apply screen-reader-text;
 }
 
 .toggle-panel {
-    display: none;
+  display: none;
 }
 
 .toggle-check:checked ~ .toggle-panel {
-    display: block;
+  display: block;
 }
 
 /**
@@ -265,114 +265,114 @@ a:hover {
  */
 
 .nav-panel .menu > .menu-item > a {
-    display: block;
-    font-weight: bold;
-    @apply text-foreground;
-    text-decoration: none;
-    @apply p-small;
-    text-align: center;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+  display: block;
+  font-weight: bold;
+  @apply text-foreground;
+  text-decoration: none;
+  @apply p-small;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
 }
 
 .nav-panel .menu > .menu-item > a:hover,
 .nav-panel .menu > .menu-item > a:focus,
 .nav-panel .menu > .menu-item > a:active {
-    @apply text-background;
-    @apply bg-primary;
-    text-shadow: none;
+  @apply text-background;
+  @apply bg-primary;
+  text-shadow: none;
 }
 
 .nav-panel .menu {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-panel .menu .menu {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .nav-panel .menu-item {
-    position: relative;
+  position: relative;
 }
 
 .nav-panel .sub-menu {
-    display: none;
-    position: absolute;
-    width: 200px;
-    top: 100%;
-    left: 0;
+  display: none;
+  position: absolute;
+  width: 200px;
+  top: 100%;
+  left: 0;
 }
 
 .nav-panel .sub-menu a {
-    @apply p-normal;
-    @apply bg-primary;
-    @apply text-background;
-    display: block;
-    text-decoration: none;
+  @apply p-normal;
+  @apply bg-primary;
+  @apply text-background;
+  display: block;
+  text-decoration: none;
 }
 
 .nav-panel .sub-menu a:hover {
-    @apply bg-foreground;
+  @apply bg-foreground;
 }
 
 .nav-panel .menu-item:hover > .sub-menu,
 .nav-panel .menu-item:active > .sub-menu,
 .nav-panel .menu-item:focus > .sub-menu {
-    display: block;
+  display: block;
 }
 
 .nav-panel .sub-menu .menu-item .sub-menu {
-    left: 100%;
-    top: 0;
+  left: 100%;
+  top: 0;
 }
 
 .nav-panel .sub-menu .menu-item-6365 .sub-menu {
-    left: auto;
-    right: 100%;
+  left: auto;
+  right: 100%;
 }
 
 .content ul,
 .nav-panel-mobile ul {
-    @apply pl-normal;
-    @apply my-x-small;
+  @apply pl-normal;
+  @apply my-x-small;
 }
 
 .content li,
 .nav-panel-mobile li {
-    @apply my-x-small;
+  @apply my-x-small;
 }
 
 .nav-panel-mobile a {
-    @apply text-background;
-    text-decoration: none;
-    display: inline-block;
-    @apply p-x-small;
+  @apply text-background;
+  text-decoration: none;
+  display: inline-block;
+  @apply p-x-small;
 }
 
 .nav-panel-mobile a:hover,
 .nav-panel-mobile a:focus,
 .nav-panel-mobile a:active {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 @screen desktop {
-    .nav-panel-mobile {
-        display: none !important;
-    }
+  .nav-panel-mobile {
+    display: none !important;
+  }
 }
 
 .home-about {
-    position: relative;
-    padding-top: 66.666%;
-    @apply w-full;
-    background: url(images/home-banner-images/index.php) top center fixed;
-    background-size: cover;
+  position: relative;
+  padding-top: 66.666%;
+  @apply w-full;
+  background: url(images/home-banner-images/index.php) top center fixed;
+  background-size: cover;
 }
 
 .customize-support #wpadminbar {
-    display: none !important;
+  display: none !important;
 }
 
 @screen desktop {
-    display: block !important;
+  display: block !important;
 }

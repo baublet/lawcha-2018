@@ -12,7 +12,7 @@ let colors = {
   backgroundLight: "rgba(254,254,254, 0.5)",
   backgroundSlight: "rgba(254,254,254, 0.05)",
   background50: "rgb(254,254,254,.5)",
-  background76: "rgb(254,254,254,.75)",
+  background75: "rgb(254,254,254,.75)",
 
   primary: "rgb(130, 15, 30)",
   primaryDark: "rgb(90, 0, 0)",
@@ -20,6 +20,14 @@ let colors = {
   primarySlight: "rgba(130, 15, 30, .05)",
 
   primaryText: "rgb(51,51,51)",
+
+  durham: "",
+  durhamLight: "",
+  durhamText: "",
+
+  seattle: "",
+  seattleLight: "",
+  seattleText: "",
 
   wcp: "#6200ea",
   wcpText: "#fcfcfc"
