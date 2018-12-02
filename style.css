@@ -4113,6 +4113,30 @@ a:hover {
   opacity: 1;
 }
 
+.smallHeadingLink {
+  color: inherit;
+  text-decoration: none;
+  opacity: .75;
+  text-transform: uppercase;
+}
+
+.smallHeadingLink:hover,
+.smallHeadingLink:active,
+.smallHeadingLink:focus {
+  text-decoration: underline;
+}
+
+.faintHeadingLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.faintHeadingLink:hover,
+.faintHeadingLink:active,
+.faintHeadingLink:focus {
+  text-decoration: underline;
+}
+
 @media (min-width: 940px) {
   .desktop\:list-reset {
     list-style: none;

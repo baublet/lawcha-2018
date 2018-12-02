@@ -408,3 +408,27 @@ a:hover {
 .singleLineInput:focus {
     @apply opacity-100;
 }
+
+.smallHeadingLink {
+  @apply text-inherit;
+  @apply no-underline;
+  @apply opacity-75;
+  @apply uppercase;
+}
+
+.smallHeadingLink:hover,
+.smallHeadingLink:active,
+.smallHeadingLink:focus {
+  @apply underline;
+}
+
+.faintHeadingLink {
+  @apply text-inherit;
+  @apply no-underline;
+}
+
+.faintHeadingLink:hover,
+.faintHeadingLink:active,
+.faintHeadingLink:focus {
+  @apply underline;
+}
