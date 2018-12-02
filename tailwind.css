@@ -436,7 +436,7 @@ a:hover {
 .articleListTitle {
   @apply text-inherit;
   @apply no-underline;
-  @apply text-normal;
+  @apply text-base;
   @apply font-heading;
 }
 
