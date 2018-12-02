@@ -396,7 +396,7 @@ a:hover {
     @apply bg-background;
     @apply text-foreground;
     @apply p-small;
-    @apply text-normal;
+    @apply font-normal;
     @apply border-foregroundSlight;
     @apply opacity-85;
 }

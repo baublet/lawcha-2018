@@ -2552,7 +2552,7 @@ table {
 }
 
 .opacity-85 {
-  opacity: .8;
+  opacity: .85;
 }
 
 .opacity-100 {
@@ -2576,7 +2576,7 @@ table {
 }
 
 .hover\:opacity-85:hover {
-  opacity: .8;
+  opacity: .85;
 }
 
 .hover\:opacity-100:hover {
@@ -2600,7 +2600,7 @@ table {
 }
 
 .focus\:opacity-85:focus {
-  opacity: .8;
+  opacity: .85;
 }
 
 .focus\:opacity-100:focus {
@@ -4071,13 +4071,13 @@ a:hover {
   background-size: cover;
 }
 
-.customize-support #wpadminbar {
-  display: none !important;
-}
-
 @media (min-width: 940px) {
   display: block !important;
 }
+
+/*
+ * Forms
+ */
 
 .buttonPrimary {
   background-color: rgb(130, 15, 30);
@@ -4094,6 +4094,21 @@ a:hover {
 .buttonPrimary:active,
 .buttonPrimary:focus {
   background-color: rgb(200, 10, 30);
+}
+
+.singleLineInput {
+  background-color: rgb(254, 254, 254);
+  color: rgb(51, 51, 51);
+  padding: .5rem;
+  font-family: open sans, trebuchet ms, sans-serif;
+  border-color: rgba(51, 51, 51, .05);
+  opacity: .85;
+}
+
+.singleLineInput:hover,
+.singleLineInput:active,
+.singleLineInput:focus {
+  opacity: 1;
 }
 
 @media (min-width: 940px) {
@@ -5875,7 +5890,7 @@ a:hover {
   }
 
   .desktop\:opacity-85 {
-    opacity: .8;
+    opacity: .85;
   }
 
   .desktop\:opacity-100 {
@@ -5899,7 +5914,7 @@ a:hover {
   }
 
   .desktop\:hover\:opacity-85:hover {
-    opacity: .8;
+    opacity: .85;
   }
 
   .desktop\:hover\:opacity-100:hover {
@@ -5923,7 +5938,7 @@ a:hover {
   }
 
   .desktop\:focus\:opacity-85:focus {
-    opacity: .8;
+    opacity: .85;
   }
 
   .desktop\:focus\:opacity-100:focus {
