@@ -385,3 +385,9 @@ a:hover {
     @apply px-normal;
     @apply py-small;
 }
+
+.buttonPrimary:hover,
+.buttonPrimary:active,
+.buttonPrimary:focus {
+    @apply bg-primaryLight;
+}
