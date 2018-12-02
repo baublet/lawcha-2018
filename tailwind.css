@@ -376,3 +376,12 @@ a:hover {
 @screen desktop {
   display: block !important;
 }
+
+.buttonPrimary {
+    @apply bg-primary;
+    @apply text-primaryText;
+    @apply font-bold;
+    @apply rounded;
+    @apply px-normal;
+    @apply py-small;
+}

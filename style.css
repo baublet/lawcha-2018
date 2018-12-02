@@ -2551,6 +2551,10 @@ table {
   opacity: .75;
 }
 
+.opacity-85 {
+  opacity: .8;
+}
+
 .opacity-100 {
   opacity: 1;
 }
@@ -2571,6 +2575,10 @@ table {
   opacity: .75;
 }
 
+.hover\:opacity-85:hover {
+  opacity: .8;
+}
+
 .hover\:opacity-100:hover {
   opacity: 1;
 }
@@ -2589,6 +2597,10 @@ table {
 
 .focus\:opacity-75:focus {
   opacity: .75;
+}
+
+.focus\:opacity-85:focus {
+  opacity: .8;
 }
 
 .focus\:opacity-100:focus {
@@ -4065,6 +4077,17 @@ a:hover {
 
 @media (min-width: 940px) {
   display: block !important;
+}
+
+.buttonPrimary {
+  background-color: rgb(130, 15, 30);
+  color: rgb(254, 254, 254);
+  font-weight: 700;
+  border-radius: .25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 @media (min-width: 940px) {
@@ -5845,6 +5868,10 @@ a:hover {
     opacity: .75;
   }
 
+  .desktop\:opacity-85 {
+    opacity: .8;
+  }
+
   .desktop\:opacity-100 {
     opacity: 1;
   }
@@ -5865,6 +5892,10 @@ a:hover {
     opacity: .75;
   }
 
+  .desktop\:hover\:opacity-85:hover {
+    opacity: .8;
+  }
+
   .desktop\:hover\:opacity-100:hover {
     opacity: 1;
   }
@@ -5883,6 +5914,10 @@ a:hover {
 
   .desktop\:focus\:opacity-75:focus {
     opacity: .75;
+  }
+
+  .desktop\:focus\:opacity-85:focus {
+    opacity: .8;
   }
 
   .desktop\:focus\:opacity-100:focus {
