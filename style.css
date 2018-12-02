@@ -4101,6 +4101,7 @@ a:hover {
   color: rgb(51, 51, 51);
   padding: .5rem;
   font-family: open sans, trebuchet ms, sans-serif;
+  border-width: 1px;
   border-color: rgb(51, 51, 51);
   opacity: .85;
   border-radius: .25rem;
