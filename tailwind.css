@@ -432,3 +432,15 @@ a:hover {
 .faintHeadingLink:focus {
   @apply underline;
 }
+
+.articleListTitle {
+  @apply text-inherit;
+  @apply no-underline;
+}
+
+.articleListTitle:hover,
+.articleListTitle:active,
+.articleListTitle:focus {
+  @apply underline;
+  @apply text-primary;
+}
