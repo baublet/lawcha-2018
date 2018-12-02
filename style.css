@@ -4151,6 +4151,21 @@ a:hover {
   color: rgb(130, 15, 30);
 }
 
+.readMore {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+  font-size: .75rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.readMore:hover,
+.readMore:active,
+.readMore:hover {
+  text-decoration: underline;
+  color: rgb(130, 15, 30);
+}
+
 @media (min-width: 940px) {
   .desktop\:list-reset {
     list-style: none;

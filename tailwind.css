@@ -446,3 +446,18 @@ a:hover {
   @apply underline;
   @apply text-primary;
 }
+
+.readMore {
+  @apply text-foreground;
+  @apply no-underline;
+  @apply text-xs;
+  @apply uppercase;
+  @apply font-bold;
+}
+
+.readMore:hover,
+.readMore:active,
+.readMore:hover {
+  @apply underline;
+  @apply text-primary;
+}
