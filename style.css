@@ -2559,6 +2559,30 @@ table {
   opacity: 1;
 }
 
+.group:hover .group-hover\:opacity-0 {
+  opacity: 0;
+}
+
+.group:hover .group-hover\:opacity-25 {
+  opacity: .25;
+}
+
+.group:hover .group-hover\:opacity-50 {
+  opacity: .5;
+}
+
+.group:hover .group-hover\:opacity-75 {
+  opacity: .75;
+}
+
+.group:hover .group-hover\:opacity-85 {
+  opacity: .85;
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
 .hover\:opacity-0:hover {
   opacity: 0;
 }
@@ -3226,6 +3250,106 @@ table {
 }
 
 .text-wcpText {
+  color: #fcfcfc;
+}
+
+.group:hover .group-hover\:text-transparent {
+  color: transparent;
+}
+
+.group:hover .group-hover\:text-inherit {
+  color: inherit;
+}
+
+.group:hover .group-hover\:text-foreground {
+  color: rgb(51, 51, 51);
+}
+
+.group:hover .group-hover\:text-foregroundLight {
+  color: rgba(51, 51, 51, .5);
+}
+
+.group:hover .group-hover\:text-foregroundSlight {
+  color: rgba(51, 51, 51, .05);
+}
+
+.group:hover .group-hover\:text-foreground50 {
+  color: rgb(51, 51, 51, .5);
+}
+
+.group:hover .group-hover\:text-foreground75 {
+  color: rgb(51, 51, 51, .75);
+}
+
+.group:hover .group-hover\:text-background {
+  color: rgb(254, 254, 254);
+}
+
+.group:hover .group-hover\:text-backgroundLight {
+  color: rgba(254, 254, 254, .5);
+}
+
+.group:hover .group-hover\:text-backgroundSlight {
+  color: rgba(254, 254, 254, .05);
+}
+
+.group:hover .group-hover\:text-background50 {
+  color: rgb(254, 254, 254, .5);
+}
+
+.group:hover .group-hover\:text-background75 {
+  color: rgb(254, 254, 254, .75);
+}
+
+.group:hover .group-hover\:text-primary {
+  color: rgb(130, 15, 30);
+}
+
+.group:hover .group-hover\:text-primaryDark {
+  color: rgb(90, 0, 0);
+}
+
+.group:hover .group-hover\:text-primaryLight {
+  color: rgb(200, 10, 30);
+}
+
+.group:hover .group-hover\:text-primarySlight {
+  color: rgba(130, 15, 30, .05);
+}
+
+.group:hover .group-hover\:text-primaryText {
+  color: rgb(254, 254, 254);
+}
+
+.group:hover .group-hover\:text-durham {
+  color: ;
+}
+
+.group:hover .group-hover\:text-durhamLight {
+  color: ;
+}
+
+.group:hover .group-hover\:text-durhamText {
+  color: ;
+}
+
+.group:hover .group-hover\:text-seattle {
+  color: ;
+}
+
+.group:hover .group-hover\:text-seattleLight {
+  color: ;
+}
+
+.group:hover .group-hover\:text-seattleText {
+  color: ;
+}
+
+.group:hover .group-hover\:text-wcp {
+  color: #6200ea;
+}
+
+.group:hover .group-hover\:text-wcpText {
   color: #fcfcfc;
 }
 
@@ -5952,6 +6076,30 @@ a:hover {
     opacity: 1;
   }
 
+  .group:hover .desktop\:group-hover\:opacity-0 {
+    opacity: 0;
+  }
+
+  .group:hover .desktop\:group-hover\:opacity-25 {
+    opacity: .25;
+  }
+
+  .group:hover .desktop\:group-hover\:opacity-50 {
+    opacity: .5;
+  }
+
+  .group:hover .desktop\:group-hover\:opacity-75 {
+    opacity: .75;
+  }
+
+  .group:hover .desktop\:group-hover\:opacity-85 {
+    opacity: .85;
+  }
+
+  .group:hover .desktop\:group-hover\:opacity-100 {
+    opacity: 1;
+  }
+
   .desktop\:hover\:opacity-0:hover {
     opacity: 0;
   }
@@ -6603,6 +6751,106 @@ a:hover {
   }
 
   .desktop\:text-wcpText {
+    color: #fcfcfc;
+  }
+
+  .group:hover .desktop\:group-hover\:text-transparent {
+    color: transparent;
+  }
+
+  .group:hover .desktop\:group-hover\:text-inherit {
+    color: inherit;
+  }
+
+  .group:hover .desktop\:group-hover\:text-foreground {
+    color: rgb(51, 51, 51);
+  }
+
+  .group:hover .desktop\:group-hover\:text-foregroundLight {
+    color: rgba(51, 51, 51, .5);
+  }
+
+  .group:hover .desktop\:group-hover\:text-foregroundSlight {
+    color: rgba(51, 51, 51, .05);
+  }
+
+  .group:hover .desktop\:group-hover\:text-foreground50 {
+    color: rgb(51, 51, 51, .5);
+  }
+
+  .group:hover .desktop\:group-hover\:text-foreground75 {
+    color: rgb(51, 51, 51, .75);
+  }
+
+  .group:hover .desktop\:group-hover\:text-background {
+    color: rgb(254, 254, 254);
+  }
+
+  .group:hover .desktop\:group-hover\:text-backgroundLight {
+    color: rgba(254, 254, 254, .5);
+  }
+
+  .group:hover .desktop\:group-hover\:text-backgroundSlight {
+    color: rgba(254, 254, 254, .05);
+  }
+
+  .group:hover .desktop\:group-hover\:text-background50 {
+    color: rgb(254, 254, 254, .5);
+  }
+
+  .group:hover .desktop\:group-hover\:text-background75 {
+    color: rgb(254, 254, 254, .75);
+  }
+
+  .group:hover .desktop\:group-hover\:text-primary {
+    color: rgb(130, 15, 30);
+  }
+
+  .group:hover .desktop\:group-hover\:text-primaryDark {
+    color: rgb(90, 0, 0);
+  }
+
+  .group:hover .desktop\:group-hover\:text-primaryLight {
+    color: rgb(200, 10, 30);
+  }
+
+  .group:hover .desktop\:group-hover\:text-primarySlight {
+    color: rgba(130, 15, 30, .05);
+  }
+
+  .group:hover .desktop\:group-hover\:text-primaryText {
+    color: rgb(254, 254, 254);
+  }
+
+  .group:hover .desktop\:group-hover\:text-durham {
+    color: ;
+  }
+
+  .group:hover .desktop\:group-hover\:text-durhamLight {
+    color: ;
+  }
+
+  .group:hover .desktop\:group-hover\:text-durhamText {
+    color: ;
+  }
+
+  .group:hover .desktop\:group-hover\:text-seattle {
+    color: ;
+  }
+
+  .group:hover .desktop\:group-hover\:text-seattleLight {
+    color: ;
+  }
+
+  .group:hover .desktop\:group-hover\:text-seattleText {
+    color: ;
+  }
+
+  .group:hover .desktop\:group-hover\:text-wcp {
+    color: #6200ea;
+  }
+
+  .group:hover .desktop\:group-hover\:text-wcpText {
     color: #fcfcfc;
   }
 
