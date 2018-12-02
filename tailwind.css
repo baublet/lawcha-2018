@@ -398,7 +398,7 @@ a:hover {
     @apply p-small;
     @apply font-normal;
     @apply border;
-    @apply border-foreground;
+    @apply border-foregroundLight;
     @apply opacity-85;
     @apply rounded;
 }
