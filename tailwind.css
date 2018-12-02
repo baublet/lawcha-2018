@@ -397,8 +397,9 @@ a:hover {
     @apply text-foreground;
     @apply p-small;
     @apply font-normal;
-    @apply border-foregroundSlight;
+    @apply border-foregroundLight;
     @apply opacity-85;
+    @apply rounded;
 }
 
 .singleLineInput:hover,
