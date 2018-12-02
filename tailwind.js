@@ -19,7 +19,7 @@ let colors = {
   primaryLight: "rgb(200, 10, 30)",
   primarySlight: "rgba(130, 15, 30, .05)",
 
-  primaryText: "rgb(51,51,51)",
+  primaryText: "rgb(254,254,254)",
 
   durham: "",
   durhamLight: "",

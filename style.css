@@ -831,7 +831,7 @@ table {
   background-color: rgb(254, 254, 254, .5);
 }
 
-.bg-background76 {
+.bg-background75 {
   background-color: rgb(254, 254, 254, .75);
 }
 
@@ -852,7 +852,31 @@ table {
 }
 
 .bg-primaryText {
-  background-color: rgb(51, 51, 51);
+  background-color: rgb(254, 254, 254);
+}
+
+.bg-durham {
+  background-color: ;
+}
+
+.bg-durhamLight {
+  background-color: ;
+}
+
+.bg-durhamText {
+  background-color: ;
+}
+
+.bg-seattle {
+  background-color: ;
+}
+
+.bg-seattleLight {
+  background-color: ;
+}
+
+.bg-seattleText {
+  background-color: ;
 }
 
 .bg-wcp {
@@ -907,7 +931,7 @@ table {
   background-color: rgb(254, 254, 254, .5);
 }
 
-.hover\:bg-background76:hover {
+.hover\:bg-background75:hover {
   background-color: rgb(254, 254, 254, .75);
 }
 
@@ -928,7 +952,31 @@ table {
 }
 
 .hover\:bg-primaryText:hover {
-  background-color: rgb(51, 51, 51);
+  background-color: rgb(254, 254, 254);
+}
+
+.hover\:bg-durham:hover {
+  background-color: ;
+}
+
+.hover\:bg-durhamLight:hover {
+  background-color: ;
+}
+
+.hover\:bg-durhamText:hover {
+  background-color: ;
+}
+
+.hover\:bg-seattle:hover {
+  background-color: ;
+}
+
+.hover\:bg-seattleLight:hover {
+  background-color: ;
+}
+
+.hover\:bg-seattleText:hover {
+  background-color: ;
 }
 
 .hover\:bg-wcp:hover {
@@ -983,7 +1031,7 @@ table {
   background-color: rgb(254, 254, 254, .5);
 }
 
-.focus\:bg-background76:focus {
+.focus\:bg-background75:focus {
   background-color: rgb(254, 254, 254, .75);
 }
 
@@ -1004,7 +1052,31 @@ table {
 }
 
 .focus\:bg-primaryText:focus {
-  background-color: rgb(51, 51, 51);
+  background-color: rgb(254, 254, 254);
+}
+
+.focus\:bg-durham:focus {
+  background-color: ;
+}
+
+.focus\:bg-durhamLight:focus {
+  background-color: ;
+}
+
+.focus\:bg-durhamText:focus {
+  background-color: ;
+}
+
+.focus\:bg-seattle:focus {
+  background-color: ;
+}
+
+.focus\:bg-seattleLight:focus {
+  background-color: ;
+}
+
+.focus\:bg-seattleText:focus {
+  background-color: ;
 }
 
 .focus\:bg-wcp:focus {
@@ -1131,7 +1203,7 @@ table {
   border-color: rgb(254, 254, 254, .5);
 }
 
-.border-background76 {
+.border-background75 {
   border-color: rgb(254, 254, 254, .75);
 }
 
@@ -1152,7 +1224,31 @@ table {
 }
 
 .border-primaryText {
-  border-color: rgb(51, 51, 51);
+  border-color: rgb(254, 254, 254);
+}
+
+.border-durham {
+  border-color: ;
+}
+
+.border-durhamLight {
+  border-color: ;
+}
+
+.border-durhamText {
+  border-color: ;
+}
+
+.border-seattle {
+  border-color: ;
+}
+
+.border-seattleLight {
+  border-color: ;
+}
+
+.border-seattleText {
+  border-color: ;
 }
 
 .border-wcp {
@@ -1207,7 +1303,7 @@ table {
   border-color: rgb(254, 254, 254, .5);
 }
 
-.hover\:border-background76:hover {
+.hover\:border-background75:hover {
   border-color: rgb(254, 254, 254, .75);
 }
 
@@ -1228,7 +1324,31 @@ table {
 }
 
 .hover\:border-primaryText:hover {
-  border-color: rgb(51, 51, 51);
+  border-color: rgb(254, 254, 254);
+}
+
+.hover\:border-durham:hover {
+  border-color: ;
+}
+
+.hover\:border-durhamLight:hover {
+  border-color: ;
+}
+
+.hover\:border-durhamText:hover {
+  border-color: ;
+}
+
+.hover\:border-seattle:hover {
+  border-color: ;
+}
+
+.hover\:border-seattleLight:hover {
+  border-color: ;
+}
+
+.hover\:border-seattleText:hover {
+  border-color: ;
 }
 
 .hover\:border-wcp:hover {
@@ -1283,7 +1403,7 @@ table {
   border-color: rgb(254, 254, 254, .5);
 }
 
-.focus\:border-background76:focus {
+.focus\:border-background75:focus {
   border-color: rgb(254, 254, 254, .75);
 }
 
@@ -1304,7 +1424,31 @@ table {
 }
 
 .focus\:border-primaryText:focus {
-  border-color: rgb(51, 51, 51);
+  border-color: rgb(254, 254, 254);
+}
+
+.focus\:border-durham:focus {
+  border-color: ;
+}
+
+.focus\:border-durhamLight:focus {
+  border-color: ;
+}
+
+.focus\:border-durhamText:focus {
+  border-color: ;
+}
+
+.focus\:border-seattle:focus {
+  border-color: ;
+}
+
+.focus\:border-seattleLight:focus {
+  border-color: ;
+}
+
+.focus\:border-seattleText:focus {
+  border-color: ;
 }
 
 .focus\:border-wcp:focus {
@@ -3017,7 +3161,7 @@ table {
   color: rgb(254, 254, 254, .5);
 }
 
-.text-background76 {
+.text-background75 {
   color: rgb(254, 254, 254, .75);
 }
 
@@ -3038,7 +3182,31 @@ table {
 }
 
 .text-primaryText {
-  color: rgb(51, 51, 51);
+  color: rgb(254, 254, 254);
+}
+
+.text-durham {
+  color: ;
+}
+
+.text-durhamLight {
+  color: ;
+}
+
+.text-durhamText {
+  color: ;
+}
+
+.text-seattle {
+  color: ;
+}
+
+.text-seattleLight {
+  color: ;
+}
+
+.text-seattleText {
+  color: ;
 }
 
 .text-wcp {
@@ -3093,7 +3261,7 @@ table {
   color: rgb(254, 254, 254, .5);
 }
 
-.hover\:text-background76:hover {
+.hover\:text-background75:hover {
   color: rgb(254, 254, 254, .75);
 }
 
@@ -3114,7 +3282,31 @@ table {
 }
 
 .hover\:text-primaryText:hover {
-  color: rgb(51, 51, 51);
+  color: rgb(254, 254, 254);
+}
+
+.hover\:text-durham:hover {
+  color: ;
+}
+
+.hover\:text-durhamLight:hover {
+  color: ;
+}
+
+.hover\:text-durhamText:hover {
+  color: ;
+}
+
+.hover\:text-seattle:hover {
+  color: ;
+}
+
+.hover\:text-seattleLight:hover {
+  color: ;
+}
+
+.hover\:text-seattleText:hover {
+  color: ;
 }
 
 .hover\:text-wcp:hover {
@@ -3169,7 +3361,7 @@ table {
   color: rgb(254, 254, 254, .5);
 }
 
-.focus\:text-background76:focus {
+.focus\:text-background75:focus {
   color: rgb(254, 254, 254, .75);
 }
 
@@ -3190,7 +3382,31 @@ table {
 }
 
 .focus\:text-primaryText:focus {
-  color: rgb(51, 51, 51);
+  color: rgb(254, 254, 254);
+}
+
+.focus\:text-durham:focus {
+  color: ;
+}
+
+.focus\:text-durhamLight:focus {
+  color: ;
+}
+
+.focus\:text-durhamText:focus {
+  color: ;
+}
+
+.focus\:text-seattle:focus {
+  color: ;
+}
+
+.focus\:text-seattleLight:focus {
+  color: ;
+}
+
+.focus\:text-seattleText:focus {
+  color: ;
 }
 
 .focus\:text-wcp:focus {
@@ -3917,7 +4133,7 @@ a:hover {
     background-color: rgb(254, 254, 254, .5);
   }
 
-  .desktop\:bg-background76 {
+  .desktop\:bg-background75 {
     background-color: rgb(254, 254, 254, .75);
   }
 
@@ -3938,7 +4154,31 @@ a:hover {
   }
 
   .desktop\:bg-primaryText {
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(254, 254, 254);
+  }
+
+  .desktop\:bg-durham {
+    background-color: ;
+  }
+
+  .desktop\:bg-durhamLight {
+    background-color: ;
+  }
+
+  .desktop\:bg-durhamText {
+    background-color: ;
+  }
+
+  .desktop\:bg-seattle {
+    background-color: ;
+  }
+
+  .desktop\:bg-seattleLight {
+    background-color: ;
+  }
+
+  .desktop\:bg-seattleText {
+    background-color: ;
   }
 
   .desktop\:bg-wcp {
@@ -3993,7 +4233,7 @@ a:hover {
     background-color: rgb(254, 254, 254, .5);
   }
 
-  .desktop\:hover\:bg-background76:hover {
+  .desktop\:hover\:bg-background75:hover {
     background-color: rgb(254, 254, 254, .75);
   }
 
@@ -4014,7 +4254,31 @@ a:hover {
   }
 
   .desktop\:hover\:bg-primaryText:hover {
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(254, 254, 254);
+  }
+
+  .desktop\:hover\:bg-durham:hover {
+    background-color: ;
+  }
+
+  .desktop\:hover\:bg-durhamLight:hover {
+    background-color: ;
+  }
+
+  .desktop\:hover\:bg-durhamText:hover {
+    background-color: ;
+  }
+
+  .desktop\:hover\:bg-seattle:hover {
+    background-color: ;
+  }
+
+  .desktop\:hover\:bg-seattleLight:hover {
+    background-color: ;
+  }
+
+  .desktop\:hover\:bg-seattleText:hover {
+    background-color: ;
   }
 
   .desktop\:hover\:bg-wcp:hover {
@@ -4069,7 +4333,7 @@ a:hover {
     background-color: rgb(254, 254, 254, .5);
   }
 
-  .desktop\:focus\:bg-background76:focus {
+  .desktop\:focus\:bg-background75:focus {
     background-color: rgb(254, 254, 254, .75);
   }
 
@@ -4090,7 +4354,31 @@ a:hover {
   }
 
   .desktop\:focus\:bg-primaryText:focus {
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(254, 254, 254);
+  }
+
+  .desktop\:focus\:bg-durham:focus {
+    background-color: ;
+  }
+
+  .desktop\:focus\:bg-durhamLight:focus {
+    background-color: ;
+  }
+
+  .desktop\:focus\:bg-durhamText:focus {
+    background-color: ;
+  }
+
+  .desktop\:focus\:bg-seattle:focus {
+    background-color: ;
+  }
+
+  .desktop\:focus\:bg-seattleLight:focus {
+    background-color: ;
+  }
+
+  .desktop\:focus\:bg-seattleText:focus {
+    background-color: ;
   }
 
   .desktop\:focus\:bg-wcp:focus {
@@ -4209,7 +4497,7 @@ a:hover {
     border-color: rgb(254, 254, 254, .5);
   }
 
-  .desktop\:border-background76 {
+  .desktop\:border-background75 {
     border-color: rgb(254, 254, 254, .75);
   }
 
@@ -4230,7 +4518,31 @@ a:hover {
   }
 
   .desktop\:border-primaryText {
-    border-color: rgb(51, 51, 51);
+    border-color: rgb(254, 254, 254);
+  }
+
+  .desktop\:border-durham {
+    border-color: ;
+  }
+
+  .desktop\:border-durhamLight {
+    border-color: ;
+  }
+
+  .desktop\:border-durhamText {
+    border-color: ;
+  }
+
+  .desktop\:border-seattle {
+    border-color: ;
+  }
+
+  .desktop\:border-seattleLight {
+    border-color: ;
+  }
+
+  .desktop\:border-seattleText {
+    border-color: ;
   }
 
   .desktop\:border-wcp {
@@ -4285,7 +4597,7 @@ a:hover {
     border-color: rgb(254, 254, 254, .5);
   }
 
-  .desktop\:hover\:border-background76:hover {
+  .desktop\:hover\:border-background75:hover {
     border-color: rgb(254, 254, 254, .75);
   }
 
@@ -4306,7 +4618,31 @@ a:hover {
   }
 
   .desktop\:hover\:border-primaryText:hover {
-    border-color: rgb(51, 51, 51);
+    border-color: rgb(254, 254, 254);
+  }
+
+  .desktop\:hover\:border-durham:hover {
+    border-color: ;
+  }
+
+  .desktop\:hover\:border-durhamLight:hover {
+    border-color: ;
+  }
+
+  .desktop\:hover\:border-durhamText:hover {
+    border-color: ;
+  }
+
+  .desktop\:hover\:border-seattle:hover {
+    border-color: ;
+  }
+
+  .desktop\:hover\:border-seattleLight:hover {
+    border-color: ;
+  }
+
+  .desktop\:hover\:border-seattleText:hover {
+    border-color: ;
   }
 
   .desktop\:hover\:border-wcp:hover {
@@ -4361,7 +4697,7 @@ a:hover {
     border-color: rgb(254, 254, 254, .5);
   }
 
-  .desktop\:focus\:border-background76:focus {
+  .desktop\:focus\:border-background75:focus {
     border-color: rgb(254, 254, 254, .75);
   }
 
@@ -4382,7 +4718,31 @@ a:hover {
   }
 
   .desktop\:focus\:border-primaryText:focus {
-    border-color: rgb(51, 51, 51);
+    border-color: rgb(254, 254, 254);
+  }
+
+  .desktop\:focus\:border-durham:focus {
+    border-color: ;
+  }
+
+  .desktop\:focus\:border-durhamLight:focus {
+    border-color: ;
+  }
+
+  .desktop\:focus\:border-durhamText:focus {
+    border-color: ;
+  }
+
+  .desktop\:focus\:border-seattle:focus {
+    border-color: ;
+  }
+
+  .desktop\:focus\:border-seattleLight:focus {
+    border-color: ;
+  }
+
+  .desktop\:focus\:border-seattleText:focus {
+    border-color: ;
   }
 
   .desktop\:focus\:border-wcp:focus {
@@ -6079,7 +6439,7 @@ a:hover {
     color: rgb(254, 254, 254, .5);
   }
 
-  .desktop\:text-background76 {
+  .desktop\:text-background75 {
     color: rgb(254, 254, 254, .75);
   }
 
@@ -6100,7 +6460,31 @@ a:hover {
   }
 
   .desktop\:text-primaryText {
-    color: rgb(51, 51, 51);
+    color: rgb(254, 254, 254);
+  }
+
+  .desktop\:text-durham {
+    color: ;
+  }
+
+  .desktop\:text-durhamLight {
+    color: ;
+  }
+
+  .desktop\:text-durhamText {
+    color: ;
+  }
+
+  .desktop\:text-seattle {
+    color: ;
+  }
+
+  .desktop\:text-seattleLight {
+    color: ;
+  }
+
+  .desktop\:text-seattleText {
+    color: ;
   }
 
   .desktop\:text-wcp {
@@ -6155,7 +6539,7 @@ a:hover {
     color: rgb(254, 254, 254, .5);
   }
 
-  .desktop\:hover\:text-background76:hover {
+  .desktop\:hover\:text-background75:hover {
     color: rgb(254, 254, 254, .75);
   }
 
@@ -6176,7 +6560,31 @@ a:hover {
   }
 
   .desktop\:hover\:text-primaryText:hover {
-    color: rgb(51, 51, 51);
+    color: rgb(254, 254, 254);
+  }
+
+  .desktop\:hover\:text-durham:hover {
+    color: ;
+  }
+
+  .desktop\:hover\:text-durhamLight:hover {
+    color: ;
+  }
+
+  .desktop\:hover\:text-durhamText:hover {
+    color: ;
+  }
+
+  .desktop\:hover\:text-seattle:hover {
+    color: ;
+  }
+
+  .desktop\:hover\:text-seattleLight:hover {
+    color: ;
+  }
+
+  .desktop\:hover\:text-seattleText:hover {
+    color: ;
   }
 
   .desktop\:hover\:text-wcp:hover {
@@ -6231,7 +6639,7 @@ a:hover {
     color: rgb(254, 254, 254, .5);
   }
 
-  .desktop\:focus\:text-background76:focus {
+  .desktop\:focus\:text-background75:focus {
     color: rgb(254, 254, 254, .75);
   }
 
@@ -6252,7 +6660,31 @@ a:hover {
   }
 
   .desktop\:focus\:text-primaryText:focus {
-    color: rgb(51, 51, 51);
+    color: rgb(254, 254, 254);
+  }
+
+  .desktop\:focus\:text-durham:focus {
+    color: ;
+  }
+
+  .desktop\:focus\:text-durhamLight:focus {
+    color: ;
+  }
+
+  .desktop\:focus\:text-durhamText:focus {
+    color: ;
+  }
+
+  .desktop\:focus\:text-seattle:focus {
+    color: ;
+  }
+
+  .desktop\:focus\:text-seattleLight:focus {
+    color: ;
+  }
+
+  .desktop\:focus\:text-seattleText:focus {
+    color: ;
   }
 
   .desktop\:focus\:text-wcp:focus {
