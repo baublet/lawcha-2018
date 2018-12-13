@@ -4,7 +4,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main type longForm" role="main">
+		<main id="main" class="site-main type" role="main">
 
 		<?php
 		// Start the loop.
