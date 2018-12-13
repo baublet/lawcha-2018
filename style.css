@@ -4305,7 +4305,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.homePageNavigation ul > ul {
+.homePageNavigation li > ul {
   margin-left: .5rem;
 }
 
