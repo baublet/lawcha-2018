@@ -483,6 +483,7 @@ a:hover {
 
 .footerLink,
 .footer-news-categories a {
+  @apply inline-block;
   @apply text-background;
   @apply no-underline;
   @apply border-b;

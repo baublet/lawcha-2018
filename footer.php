@@ -11,7 +11,7 @@
             </div>
             <div class="footer-news-categories desktop:w-1/2 mt-large desktop:mt-0">
                 <h2 class="font-heading text-lg font-bold mb-small"><span class="icon-folder"></span> News Categories</h2>
-                <?= wp_nav_menu(["menu" => "News Categories"]) ?>
+                <div style="columns: auto 12em"><?= wp_nav_menu(["menu" => "News Categories"]) ?></div>
             </div>
         </div>
         <div class="site-info mt-large desktop:text-center text-sx">
