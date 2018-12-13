@@ -800,7 +800,7 @@ table {
 }
 
 .bg-foregroundLight {
-  background-color: rgba(51, 51, 51, .5);
+  background-color: rgba(51, 51, 51, .25);
 }
 
 .bg-foregroundSlight {
@@ -904,7 +904,7 @@ table {
 }
 
 .hover\:bg-foregroundLight:hover {
-  background-color: rgba(51, 51, 51, .5);
+  background-color: rgba(51, 51, 51, .25);
 }
 
 .hover\:bg-foregroundSlight:hover {
@@ -1008,7 +1008,7 @@ table {
 }
 
 .focus\:bg-foregroundLight:focus {
-  background-color: rgba(51, 51, 51, .5);
+  background-color: rgba(51, 51, 51, .25);
 }
 
 .focus\:bg-foregroundSlight:focus {
@@ -1184,7 +1184,7 @@ table {
 }
 
 .border-foregroundLight {
-  border-color: rgba(51, 51, 51, .5);
+  border-color: rgba(51, 51, 51, .25);
 }
 
 .border-foregroundSlight {
@@ -1288,7 +1288,7 @@ table {
 }
 
 .hover\:border-foregroundLight:hover {
-  border-color: rgba(51, 51, 51, .5);
+  border-color: rgba(51, 51, 51, .25);
 }
 
 .hover\:border-foregroundSlight:hover {
@@ -1392,7 +1392,7 @@ table {
 }
 
 .focus\:border-foregroundLight:focus {
-  border-color: rgba(51, 51, 51, .5);
+  border-color: rgba(51, 51, 51, .25);
 }
 
 .focus\:border-foregroundSlight:focus {
@@ -3190,7 +3190,7 @@ table {
 }
 
 .text-foregroundLight {
-  color: rgba(51, 51, 51, .5);
+  color: rgba(51, 51, 51, .25);
 }
 
 .text-foregroundSlight {
@@ -3294,7 +3294,7 @@ table {
 }
 
 .group:hover .group-hover\:text-foregroundLight {
-  color: rgba(51, 51, 51, .5);
+  color: rgba(51, 51, 51, .25);
 }
 
 .group:hover .group-hover\:text-foregroundSlight {
@@ -3398,7 +3398,7 @@ table {
 }
 
 .hover\:text-foregroundLight:hover {
-  color: rgba(51, 51, 51, .5);
+  color: rgba(51, 51, 51, .25);
 }
 
 .hover\:text-foregroundSlight:hover {
@@ -3502,7 +3502,7 @@ table {
 }
 
 .focus\:text-foregroundLight:focus {
-  color: rgba(51, 51, 51, .5);
+  color: rgba(51, 51, 51, .25);
 }
 
 .focus\:text-foregroundSlight:focus {
@@ -4334,7 +4334,7 @@ a:hover {
   padding: .5rem;
   font-family: open sans, trebuchet ms, sans-serif;
   border-width: 1px;
-  border-color: rgba(51, 51, 51, .5);
+  border-color: rgba(51, 51, 51, .25);
   opacity: .85;
   border-radius: .25rem;
 }
@@ -4471,7 +4471,7 @@ a:hover {
   }
 
   .desktop\:bg-foregroundLight {
-    background-color: rgba(51, 51, 51, .5);
+    background-color: rgba(51, 51, 51, .25);
   }
 
   .desktop\:bg-foregroundSlight {
@@ -4575,7 +4575,7 @@ a:hover {
   }
 
   .desktop\:hover\:bg-foregroundLight:hover {
-    background-color: rgba(51, 51, 51, .5);
+    background-color: rgba(51, 51, 51, .25);
   }
 
   .desktop\:hover\:bg-foregroundSlight:hover {
@@ -4679,7 +4679,7 @@ a:hover {
   }
 
   .desktop\:focus\:bg-foregroundLight:focus {
-    background-color: rgba(51, 51, 51, .5);
+    background-color: rgba(51, 51, 51, .25);
   }
 
   .desktop\:focus\:bg-foregroundSlight:focus {
@@ -4847,7 +4847,7 @@ a:hover {
   }
 
   .desktop\:border-foregroundLight {
-    border-color: rgba(51, 51, 51, .5);
+    border-color: rgba(51, 51, 51, .25);
   }
 
   .desktop\:border-foregroundSlight {
@@ -4951,7 +4951,7 @@ a:hover {
   }
 
   .desktop\:hover\:border-foregroundLight:hover {
-    border-color: rgba(51, 51, 51, .5);
+    border-color: rgba(51, 51, 51, .25);
   }
 
   .desktop\:hover\:border-foregroundSlight:hover {
@@ -5055,7 +5055,7 @@ a:hover {
   }
 
   .desktop\:focus\:border-foregroundLight:focus {
-    border-color: rgba(51, 51, 51, .5);
+    border-color: rgba(51, 51, 51, .25);
   }
 
   .desktop\:focus\:border-foregroundSlight:focus {
@@ -6837,7 +6837,7 @@ a:hover {
   }
 
   .desktop\:text-foregroundLight {
-    color: rgba(51, 51, 51, .5);
+    color: rgba(51, 51, 51, .25);
   }
 
   .desktop\:text-foregroundSlight {
@@ -6941,7 +6941,7 @@ a:hover {
   }
 
   .group:hover .desktop\:group-hover\:text-foregroundLight {
-    color: rgba(51, 51, 51, .5);
+    color: rgba(51, 51, 51, .25);
   }
 
   .group:hover .desktop\:group-hover\:text-foregroundSlight {
@@ -7045,7 +7045,7 @@ a:hover {
   }
 
   .desktop\:hover\:text-foregroundLight:hover {
-    color: rgba(51, 51, 51, .5);
+    color: rgba(51, 51, 51, .25);
   }
 
   .desktop\:hover\:text-foregroundSlight:hover {
@@ -7149,7 +7149,7 @@ a:hover {
   }
 
   .desktop\:focus\:text-foregroundLight:focus {
-    color: rgba(51, 51, 51, .5);
+    color: rgba(51, 51, 51, .25);
   }
 
   .desktop\:focus\:text-foregroundSlight:focus {
