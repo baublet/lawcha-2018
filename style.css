@@ -4134,6 +4134,7 @@ a:hover {
 .longForm h2,
 .longForm h3 {
   font-size: 1.875rem;
+  margin-top: 2rem;
 }
 
 .longForm h3 {
@@ -4158,6 +4159,11 @@ a:hover {
 .longForm ul {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.longForm li {
+  margin-left: 1rem;
+  list-style-type: disc;
 }
 
 .toggle-check {

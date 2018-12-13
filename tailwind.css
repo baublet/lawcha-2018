@@ -279,6 +279,7 @@ a:hover {
 .longForm h2,
 .longForm h3 {
   @apply text-3xl;
+  @apply mt-large;
 }
 
 .longForm h3 {
@@ -302,7 +303,11 @@ a:hover {
 
 .longForm ul {
   @apply my-normal;
-  @apply 
+}
+
+.longForm li {
+  @apply ml-normal;
+  list-style-type: disc;
 }
 
 .toggle-check {
