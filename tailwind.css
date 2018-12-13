@@ -254,7 +254,8 @@ a:hover {
   @apply leading-loose;
 }
 
-.longForm p {
+.longForm p,
+.longForm li {
   max-width: 640px;
   @apply leading-loose;
 }

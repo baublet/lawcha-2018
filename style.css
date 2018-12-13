@@ -4109,7 +4109,8 @@ a:hover {
   line-height: 1.6;
 }
 
-.longForm p {
+.longForm p,
+.longForm li {
   max-width: 640px;
   line-height: 1.6;
 }
