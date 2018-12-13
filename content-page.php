@@ -20,8 +20,7 @@
 	</header><!-- .entry-header -->
 	<?php endif; ?>
 
-	asdfasdfasdf<?= get_page_template_slug() ?><hr>asdfasdfasdf
-	<div class="entry-content <?= get_page_template_slug() == 'long-type' ? "longForm" : "" ?>">
+	<div class="entry-content <?= get_page_template_slug() == 'page-templates/page_long-type.php' ? "longForm" : "" ?>">
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
