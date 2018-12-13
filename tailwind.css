@@ -230,6 +230,10 @@ a:hover {
   margin: 0 auto;
 }
 
+.home .contentBlock {
+  width: 1280px;
+}
+
 .contentPanel {
   @apply bg-background;
   @apply p-normal;

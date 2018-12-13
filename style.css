@@ -4085,6 +4085,10 @@ a:hover {
   margin: 0 auto;
 }
 
+.home .contentBlock {
+  width: 1280px;
+}
+
 .contentPanel {
   background-color: rgb(254, 254, 254);
   padding: 1rem;
