@@ -4305,6 +4305,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.homePageNavigation ul > ul {
+  margin-left: .5rem;
+}
+
 @media (min-width: 940px) {
   .desktop\:list-reset {
     list-style: none;

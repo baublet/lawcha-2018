@@ -476,3 +476,7 @@ a:hover {
 .homePageNavigation a:active {
   @apply underline;
 }
+
+.homePageNavigation ul > ul {
+  @apply ml-small;
+}
