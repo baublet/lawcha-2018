@@ -4166,6 +4166,10 @@ a:hover {
   list-style-type: disc;
 }
 
+.longForm li + li {
+  margin-top: 1rem;
+}
+
 .toggle-check {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);

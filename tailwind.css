@@ -310,6 +310,10 @@ a:hover {
   list-style-type: disc;
 }
 
+.longForm li + li {
+  @apply mt-normal;
+}
+
 .toggle-check {
   @apply screen-reader-text;
 }
