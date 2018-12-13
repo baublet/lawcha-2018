@@ -283,7 +283,7 @@ a:hover {
   @apply mt-large;
 }
 
-.longForm h3 {
+.longForm h2 {
   @apply border-b;
   @apply border-solid;
   @apply border-foregroundSlight;
