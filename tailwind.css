@@ -170,6 +170,16 @@ body {
   word-wrap: normal !important;
 }
 
+b,
+strong {
+  @apply font-bold;
+}
+
+em,
+i {
+  @apply italic;
+}
+
 .clear-right {
   clear: right;
 }

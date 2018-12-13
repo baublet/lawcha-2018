@@ -4025,6 +4025,16 @@ body {
   word-wrap: normal !important;
 }
 
+b,
+strong {
+  font-weight: 700;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
 .clear-right {
   clear: right;
 }
