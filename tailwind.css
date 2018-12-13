@@ -480,3 +480,17 @@ a:hover {
 .homePageNavigation li > ul {
   @apply ml-small;
 }
+
+.footerLink {
+  @apply text-background;
+  @apply no-underline;
+  @apply border-b;
+  @apply border-solid;
+  @apply border-backgroundSlight;
+}
+
+.footerLink:hover,
+.footerLink:active,
+.footerLink:focus {
+  @apply border-background;
+}

@@ -1,22 +1,22 @@
 </div><!-- .content -->
 
-<footer id="colophon" class="footer text-background color-foreground py-large">
-    <div class="contentBlock">
-        <div class="social-media">
-            <div class="twitter">
+<footer id="colophon" class="footer text-background bg-foreground py-large">
+    <div class="contentBlock px-normal">
+        <div class="social-media desktop:flex">
+            <div class="twitter desktop:w-1/3">
                 <h2><a href="https://twitter.com/lawcha_org"><span class="icon-twitter"></span> Twitter</a></h2>
                 <p><span>Follow us on Twitter</span> <a href="https://twitter.com/lawcha_org">@LAWCHA_ORG</a> or <a href="https://twitter.com/laboronline">@LaborOnline</a> to take part in the discussion.</p>
             </div>
-            <div class="facebook">
+            <div class="facebook desktop:w-1/3">
                 <h2><a href="https://www.facebook.com/laborandworkingclasshistory"><span class="icon-facebook"></span> Facebook</a></h2>
                 <p><span>Follow us on</span> <a href="https://www.facebook.com/laborandworkingclasshistory">Facebook page</a> to receive the latest updates. Don't forget to like us!</p>
             </div>
-            <div class="news-categories">
+            <div class="news-categories desktop:w-1/3">
                 <h2><span class="icon-folder"></span> News Categories</h2>
                 <?=wp_nav_menu(array("menu" => "News Categories"))?>
             </div>
         </div>
-        <div class="site-info">
+        <div class="site-info mt-large">
             <p>&copy 1998-Present LAWCHA. All Rights Reserved.</p>
 
             <p>Supported for the <strong>latest versions</strong> of:

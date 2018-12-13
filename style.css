@@ -4309,6 +4309,20 @@ a:hover {
   margin-left: .5rem;
 }
 
+.footerLink {
+  color: rgb(254, 254, 254);
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: rgba(254, 254, 254, .05);
+}
+
+.footerLink:hover,
+.footerLink:active,
+.footerLink:focus {
+  border-color: rgb(254, 254, 254);
+}
+
 @media (min-width: 940px) {
   .desktop\:list-reset {
     list-style: none;
