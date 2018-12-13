@@ -2,14 +2,14 @@
 
 	<?php if(!is_front_page()): ?>
 	<header class="entry-header">
-		<h1 class="text-4xl font-heading font-thin">
+		<h1 class="text-5xl font-heading border-b border-solid border-foregroundLight">
 		<?php
 			$title = get_the_title();
 			if(function_exists('loop_shortcode_title')) {
 				echo loop_shortcode_title($title);
 				echo loop_shortcode_subtitle(
 					$title,
-					'<span class="text-5xl font-heading border-b border-solid border-foregroundLight">'
+					'<span class="text-3xl font-normal font-thin">'
 					,'</span>'
 				);
 			} else {
