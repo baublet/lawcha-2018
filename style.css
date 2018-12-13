@@ -4309,7 +4309,8 @@ a:hover {
   margin-left: .5rem;
 }
 
-.footerLink {
+.footerLink,
+.footer-news-categories a {
   color: rgb(254, 254, 254);
   text-decoration: none;
   border-bottom-width: 1px;
@@ -4319,7 +4320,9 @@ a:hover {
 
 .footerLink:hover,
 .footerLink:active,
-.footerLink:focus {
+.footerLink:focus,
+.footer-news-categories a:hover,
+.footer-news-categories a:focus {
   border-color: rgb(254, 254, 254);
 }
 

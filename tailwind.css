@@ -481,7 +481,8 @@ a:hover {
   @apply ml-small;
 }
 
-.footerLink {
+.footerLink,
+.footer-news-categories a {
   @apply text-background;
   @apply no-underline;
   @apply border-b;
@@ -491,6 +492,8 @@ a:hover {
 
 .footerLink:hover,
 .footerLink:active,
-.footerLink:focus {
+.footerLink:focus,
+.footer-news-categories a:hover,
+.footer-news-categories a:focus {
   @apply border-background;
 }
