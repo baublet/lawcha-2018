@@ -487,7 +487,7 @@ a:hover {
   @apply no-underline;
   @apply border-b;
   @apply border-solid;
-  @apply border-backgroundSlight;
+  @apply border-background50;
 }
 
 .footerLink:hover,
@@ -496,4 +496,5 @@ a:hover {
 .footer-news-categories a:hover,
 .footer-news-categories a:focus {
   @apply border-background;
+  @apply text-background;
 }

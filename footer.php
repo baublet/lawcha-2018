@@ -3,15 +3,13 @@
 <footer id="colophon" class="footer text-background bg-foreground py-large text-sm">
     <div class="contentBlock px-normal">
         <div class="social-media desktop:flex">
-            <div class="twitter desktop:w-1/3">
+            <div class="twitter desktop:w-1/2">
                 <h2 class="font-heading text-lg font-bold mb-small"><a href="https://twitter.com/lawcha_org" class="footerLink"><span class="icon-twitter"></span> Twitter</a></h2>
                 <p><span>Follow us on Twitter</span> <a href="https://twitter.com/lawcha_org" class="footerLink">@LAWCHA_ORG</a></p>
-            </div>
-            <div class="facebook desktop:w-1/3 mt-large desktop:mt-0">
-                <h2 class="font-heading text-lg font-bold mb-small"><a href="https://www.facebook.com/laborandworkingclasshistory" class="footerLink"><span class="icon-facebook"></span> Facebook</a></h2>
+                <h2 class="font-heading text-lg font-bold mt-normal mb-small"><a href="https://www.facebook.com/laborandworkingclasshistory" class="footerLink"><span class="icon-facebook"></span> Facebook</a></h2>
                 <p><span>Follow us on</span> <a href="https://www.facebook.com/laborandworkingclasshistory" class="footerLink">Facebook page</a> to receive the latest updates. Don't forget to like us!</p>
             </div>
-            <div class="footer-news-categories desktop:w-1/3 mt-large desktop:mt-0">
+            <div class="footer-news-categories desktop:w-1/2 mt-large desktop:mt-0">
                 <h2 class="font-heading text-lg font-bold mb-small"><span class="icon-folder"></span> News Categories</h2>
                 <?= wp_nav_menu(["menu" => "News Categories"]) ?>
             </div>
