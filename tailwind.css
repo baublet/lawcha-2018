@@ -271,6 +271,7 @@ a:hover {
   @apply font-heading;
   @apply mt-normal;
   @apply mb-small;
+  @apply leading-none;
 }
 
 .longForm h1,

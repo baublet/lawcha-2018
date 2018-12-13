@@ -4126,6 +4126,7 @@ a:hover {
   font-family: bitter, merriweather, serif;
   margin-top: 1rem;
   margin-bottom: .5rem;
+  line-height: 1;
 }
 
 .longForm h1,
