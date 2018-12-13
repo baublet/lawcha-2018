@@ -4290,6 +4290,21 @@ a:hover {
   color: rgb(130, 15, 30);
 }
 
+.homePageNavigation {
+  columns: auto 12em;
+}
+
+.homePageNavigation a {
+  color: rgb(254, 254, 254);
+  text-decoration: none;
+}
+
+.homePageNavigation a:hover,
+.homePageNavigation a:focus,
+.homePageNavigation a:active {
+  text-decoration: underline;
+}
+
 @media (min-width: 940px) {
   .desktop\:list-reset {
     list-style: none;

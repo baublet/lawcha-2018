@@ -461,3 +461,18 @@ a:hover {
   @apply underline;
   @apply text-primary;
 }
+
+.homePageNavigation {
+  columns: auto 12em;
+}
+
+.homePageNavigation a {
+  @apply text-primaryText;
+  @apply no-underline;
+}
+
+.homePageNavigation a:hover,
+.homePageNavigation a:focus,
+.homePageNavigation a:active {
+  @apply underline;
+}
