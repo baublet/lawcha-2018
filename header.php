@@ -20,7 +20,7 @@
     <?php lawcha_wp_head(); ?>
 </head>
 
-<body class="font-normal text-base text-foreground bg-background relative leading-normal overflow-x-hidden">
+<body <?= body_class("font-normal text-base text-foreground bg-background relative leading-normal overflow-x-hidden") ?>>
 
 <a class="screen-reader-text" href="#content"><?php echo 'Skip to content'; ?></a>
 
