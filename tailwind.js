@@ -7,6 +7,7 @@ let colors = {
   foregroundSlight: "rgba(51,51,51, 0.05)",
   foreground50: "rgb(51,51,51,.5)",
   foreground75: "rgb(51,51,51,.75)",
+  foreground90: "rgba(51, 51, 51, .9)",
 
   background: "rgb(254,254,254)",
   backgroundLight: "rgba(254,254,254, 0.5)",
