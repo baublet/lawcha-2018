@@ -4111,6 +4111,7 @@ a:hover {
 
 .longForm p {
   max-width: 640px;
+  line-height: 1.6;
 }
 
 .longForm p + p {
@@ -4152,6 +4153,11 @@ a:hover {
 
 .longForm h6 {
   font-weight: 700;
+}
+
+.longForm ul {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .toggle-check {

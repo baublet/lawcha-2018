@@ -256,6 +256,7 @@ a:hover {
 
 .longForm p {
   max-width: 640px;
+  @apply leading-loose;
 }
 
 .longForm p + p {
@@ -297,6 +298,11 @@ a:hover {
 
 .longForm h6 {
   @apply font-bold;
+}
+
+.longForm ul {
+  @apply my-normal;
+  @apply 
 }
 
 .toggle-check {
