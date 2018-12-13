@@ -25,8 +25,8 @@
 <div class="header contentBlock desktop:flex desktop:justify-between items-end text-xs no-underline">
     <header id="top" class="desktop:max-w-xs">
         <div class="brand">
-            <h1 class="site-title bg-primary p-normal desktop:pt-largest">
-                <a href="<?php echo esc_url(home_url('/')); ?>" rel="home" class="inline-block mx-auto">
+            <h1 class="site-title bg-primary p-normal desktop:pt-largest text-center">
+                <a href="<?php echo esc_url(home_url('/')); ?>" rel="home" class="inline-block">
                     <img src="<?= get_template_directory_uri() ?>/images/brand.png" alt="<?php bloginfo('name'); ?>" class="w-full h-auto" />
                     <span class="screen-reader-text">
                         <?php bloginfo('name'); ?>
