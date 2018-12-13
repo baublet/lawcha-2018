@@ -4117,6 +4117,42 @@ a:hover {
   margin-top: 1rem;
 }
 
+.longForm h1,
+.longForm h2,
+.longForm h3,
+.longForm h4,
+.longForm h5,
+.longForm h6 {
+  font-family: bitter, merriweather, serif;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+.longForm h1,
+.longForm h2,
+.longForm h3 {
+  font-size: 1.875rem;
+}
+
+.longForm h3 {
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: rgba(51, 51, 51, .05);
+}
+
+.longForm h4 {
+  font-size: 1.5rem;
+}
+
+.longForm h5 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.longForm h6 {
+  font-weight: 700;
+}
+
 .toggle-check {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);

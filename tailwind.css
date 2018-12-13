@@ -262,6 +262,42 @@ a:hover {
   @apply mt-normal;
 }
 
+.longForm h1,
+.longForm h2,
+.longForm h3,
+.longForm h4,
+.longForm h5,
+.longForm h6 {
+  @apply font-heading;
+  @apply mt-normal;
+  @apply mb-small;
+}
+
+.longForm h1,
+.longForm h2,
+.longForm h3 {
+  @apply text-3xl;
+}
+
+.longForm h3 {
+  @apply border-b;
+  @apply border-solid;
+  @apply border-foregroundSlight;
+}
+
+.longForm h4 {
+  @apply text-2xl;
+}
+
+.longForm h5 {
+  @apply text-xl;
+  @apply font-bold;
+}
+
+.longForm h6 {
+  @apply font-bold;
+}
+
 .toggle-check {
   @apply screen-reader-text;
 }
