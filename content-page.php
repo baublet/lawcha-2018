@@ -20,6 +20,7 @@
 	</header><!-- .entry-header -->
 	<?php endif; ?>
 
+	<?= get_page_template_slug() ?><hr>
 	<div class="entry-content <?= get_page_template_slug() == 'long-type' ? "longForm" : "" ?>">
 		<?php the_content(); ?>
 		<?php
