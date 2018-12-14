@@ -3,7 +3,7 @@ let colors = {
   inherit: "inherit",
 
   foreground: "rgb(51,51,51)",
-  foregroundLight: "rgba(51,51,51, 0.25)",
+  foregroundLight: "rgba(51,51,51, 0.15)",
   foregroundSlight: "rgba(51,51,51, 0.05)",
   foreground50: "rgb(51,51,51,.5)",
   foreground75: "rgb(51,51,51,.75)",
